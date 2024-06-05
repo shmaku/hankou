@@ -1,8 +1,8 @@
 [hello]
   other = "你好"
-[read more]
+[readMore]
   other = "阅读全文"
 [Recent]
-  other = '最近的'
+  other = "最近的"
 # 添加其他需要翻译的条目
 
