@@ -1,3 +1,5 @@
+defaultContentLanguage = "zh-cn" # 默认语言
+defaultContentLanguageInSubdir = true
 baseURL = 'https://571bb78d.hankou.pages.dev'
 languageCode = 'zh-cn'
 title = '日取其半'
