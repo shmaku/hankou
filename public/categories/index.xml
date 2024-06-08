@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 日取其半</title>
-    <link>https://571bb78d.hankou.pages.dev/categories/</link>
+    <link>https://hankou.pages.dev/categories/</link>
     <description>Recent content in Categories on 日取其半</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="https://571bb78d.hankou.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hankou.pages.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
