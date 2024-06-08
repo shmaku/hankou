@@ -1,11 +1,3 @@
-[languages]
-  [languages.zh]
-    disabled = false
-    languageCode = ''
-    languageDirection = ''
-    languageName = ''
-    title = ''
-    weight = 0
 baseURL = 'https://hankou.pages.dev'
 languageCode = 'zh-cmn'
 title = '日取其半'
