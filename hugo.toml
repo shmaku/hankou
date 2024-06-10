@@ -1,4 +1,6 @@
+defaultContentLanguage = "zh-cn" # 默认语言
+defaultContentLanguageInSubdir = true
 baseURL = 'https://hankou.pages.dev'
-languageCode = 'zh-cmn'
+languageCode = 'zh-cn'
 title = '日取其半'
-theme = 'ananke'
+theme = 'papermod'
