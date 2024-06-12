@@ -1,6 +1,11 @@
-defaultContentLanguage = "zh-cn" # 默认语言
+defaultContentLanguage = "zh" # 默认语言
 defaultContentLanguageInSubdir = true
 baseURL = 'https://hankou.pages.dev'
-languageCode = 'zh-cn'
+languageCode = 'zh'
 title = '日取其半'
 theme = 'papermod'
+
+[params]
+  mainSections = ["posts"]
+  paginate = 10
+  paginatePath = "page"
