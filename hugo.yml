@@ -9,4 +9,4 @@ params:
     - posts
   paginate: 10
   paginatePath: page
-
+sectionPagesMenu: main
