@@ -2,5 +2,7 @@ defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
 baseURL: https://hankou.pages.dev
 languageCode: zh
-title: 日取其半
+title: HANKOU
 theme: papermod
+
+sectionPagesMenu: main
