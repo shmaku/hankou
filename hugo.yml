@@ -4,9 +4,4 @@ baseURL: https://hankou.pages.dev
 languageCode: zh
 title: 日取其半
 theme: papermod
-params:
-  mainSections:
-    - posts
-  paginate: 10
-  paginatePath: page
 sectionPagesMenu: main
