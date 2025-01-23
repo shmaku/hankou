@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/</loc>
+    <loc>https://hankou.pages.dev/zh/</loc>
     <lastmod>2024-06-04T14:08:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zh/posts/introduction/</loc>
+    <loc>https://hankou.pages.dev/zh/posts/introduction/</loc>
     <lastmod>2024-06-04T14:08:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zh/posts/</loc>
+    <loc>https://hankou.pages.dev/zh/posts/</loc>
     <lastmod>2024-06-04T14:08:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zh/about/about/</loc>
+    <loc>https://hankou.pages.dev/zh/about/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/posts/2024_6_6_1/</loc>
+    <loc>https://hankou.pages.dev/zh/posts/2024_6_6_1/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/about/</loc>
+    <loc>https://hankou.pages.dev/zh/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/categories/</loc>
+    <loc>https://hankou.pages.dev/zh/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/zh/tags/</loc>
+    <loc>https://hankou.pages.dev/zh/tags/</loc>
   </url>
 </urlset>
