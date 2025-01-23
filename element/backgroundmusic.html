@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30秒钟钢琴曲</title>
+</head>
+<body>
+
+  <h1>30秒钟的简易钢琴曲</h1>
+  <button onclick="playJazzPiano()">播放</button>
+
+  <script>
+    function playJazzPiano() {
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const notes = [
+        { freq: 261.63, duration: 500 }, // C4
+        { freq: 293.66, duration: 500 }, // D4
+        { freq: 329.63, duration: 500 }, // E4
+        { freq: 349.23, duration: 500 }, // F4
+        { freq: 392.00, duration: 500 }, // G4
+        { freq: 440.00, duration: 500 }, // A4
+        { freq: 493.88, duration: 500 }, // B4
+        { freq: 523.25, duration: 500 }, // C5
+        { freq: 523.25, duration: 500 }, // C5
+        { freq: 440.00, duration: 500 }, // A4
+        { freq: 392.00, duration: 500 }, // G4
+        { freq: 349.23, duration: 500 }, // F4
+        { freq: 329.63, duration: 500 }, // E4
+        { freq: 293.66, duration: 500 }, // D4
+        { freq: 261.63, duration: 500 }  // C4
+      ];
+
+      let currentTime = audioContext.currentTime;
+
+      notes.forEach(note => {
+        const oscillator = audioContext.createOscillator();
+        const gainNode = audioContext.createGain();
+
+        oscillator.type = 'sine'; // 音波形
+        oscillator.frequency.setValueAtTime(note.freq, currentTime); // 设置频率
+        oscillator.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+
+        gainNode.gain.setValueAtTime(0.5, currentTime); // 音量
+        oscillator.start(currentTime);
+        oscillator.stop(currentTime + note.duration / 1000); // 持续时间（秒）
+
+        currentTime += note.duration / 1000; // 更新当前时间
+      });
+    }
+  </script>
+
+</body>
+</html>
