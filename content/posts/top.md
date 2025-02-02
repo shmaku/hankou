@@ -1,17 +1,21 @@
 +++
 title = "持仓"
-date = "2025-02-02"
+date = 2025-02-02
 draft = false
+target_date = "2024-12-13"
 +++
 
 新和成 （002001）  
 2024/12/13  
 ￥21.67
 
-{{ $today := now }}
-{{ $previousDate := "2024-12-13" | time.AsTime }}  
-{{ $daysDifference := sub (time $today) (time $previousDate) | time.Days }}
-{{ $daysDifference | int }}
+{{ $targetDate := .Params.target_date }}  <!-- 获取目标日期 -->
+{{ $today := now }}  <!-- 获取今天的日期 -->
+
+<!-- 计算天数差 -->
+{{ $targetDateParsed := time $targetDate "2006-01-02" }}  <!-- 转换目标日期 -->
+{{ $diff := $today.Sub $targetDateParsed }}  <!-- 计算日期差 -->
+{{ $days := $diff.Truncate "24h" | div 86400 }}  <!-- 将结果转换为天数 -->
 
 <!-- 显示结果 -->
-持仓 {{ $daysDifference | int }} 天。
+持仓 {{ $days | printf "%.0f" }} 天。
