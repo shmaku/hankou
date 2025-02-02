@@ -18,9 +18,9 @@
 ￥21.67&lt;/p&gt;
 &lt;p&gt;{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  &lt;/p&gt;
-&lt;p&gt;{{ $targetDateParsed := time $targetDate }}  
+&lt;p&gt;{{ $targetDateParsed := time $targetDate &amp;ldquo;2006-01-02&amp;rdquo; }}  
 {{ $diff := $today.Sub $targetDateParsed }}  
-{{ $days := $diff.Hours | div 24 }}  &lt;/p&gt;
+{{ $days := $diff.Truncate &amp;ldquo;24h&amp;rdquo; | div 86400 }}  &lt;/p&gt;
 &lt;p&gt;持仓 {{ $days | printf &amp;ldquo;%.0f&amp;rdquo; }} 天。&lt;/p&gt;</description>
     </item>
     <item>
