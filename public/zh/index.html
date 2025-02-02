@@ -143,6 +143,7 @@
   </header>
   <div class="entry-content">
     <p>新和成 （002001） 2024/12/13 ￥21.67
+{{ $targetDate := .Params.target_2024-12-13 }} {{ $today := now }} {{ $dateFormat := “2006-01-02” }} {{ $diff := sub (time $today) (time $targetDate) }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf “%.0f” }} 天。
 </p>
   </div>
   <footer class="entry-footer"><span title='2025-02-02 00:00:00 +0000 UTC'>二月 2, 2025</span></footer>

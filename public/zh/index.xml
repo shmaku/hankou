@@ -15,7 +15,13 @@
       <guid>https://hankou.pages.dev/zh/posts/top/</guid>
       <description>&lt;p&gt;新和成 （002001）
 2024/12/13
-￥21.67&lt;/p&gt;</description>
+￥21.67&lt;/p&gt;
+&lt;p&gt;{{ $targetDate := .Params.target_2024-12-13 }}  
+{{ $today := now }}  
+{{ $dateFormat := &amp;ldquo;2006-01-02&amp;rdquo; }}  &lt;/p&gt;
+&lt;p&gt;{{ $diff := sub (time $today) (time $targetDate) }}
+{{ $days := div (float64 $diff) 86400 }}  &lt;/p&gt;
+&lt;p&gt;持仓 {{ $days | printf &amp;ldquo;%.0f&amp;rdquo; }} 天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>承兑</title>
