@@ -13,8 +13,8 @@
 {{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
 {{ $targetDateParsed := time $targetDate }}  
-{{ $diff := sub $today $targetDateParsed }}  
-{{ $days := div (float64 $diff) 86400 }}  
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Hours | div 24 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。">
 <meta name="author" content="">
 <link rel="canonical" href="https://hankou.pages.dev/zh/posts/top/">
@@ -70,8 +70,8 @@
 {{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
 {{ $targetDateParsed := time $targetDate }}  
-{{ $diff := sub $today $targetDateParsed }}  
-{{ $days := div (float64 $diff) 86400 }}  
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Hours | div 24 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hankou.pages.dev/zh/posts/top/" /><meta property="article:section" content="posts" />
@@ -86,8 +86,8 @@
 {{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
 {{ $targetDateParsed := time $targetDate }}  
-{{ $diff := sub $today $targetDateParsed }}  
-{{ $days := div (float64 $diff) 86400 }}  
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Hours | div 24 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。"/>
 
 
@@ -117,12 +117,12 @@
   "@type": "BlogPosting",
   "headline": "持仓",
   "name": "持仓",
-  "description": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := sub $today $targetDateParsed }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf \u0026ldquo;%.0f\u0026rdquo; }} 天。\n",
+  "description": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := $today.Sub $targetDateParsed }} {{ $days := $diff.Hours | div 24 }} 持仓 {{ $days | printf \u0026ldquo;%.0f\u0026rdquo; }} 天。\n",
   "keywords": [
     
   ],
-  "articleBody": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := sub $today $targetDateParsed }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf “%.0f” }} 天。\n",
-  "wordCount" : "43",
+  "articleBody": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := $today.Sub $targetDateParsed }} {{ $days := $diff.Hours | div 24 }} 持仓 {{ $days | printf “%.0f” }} 天。\n",
+  "wordCount" : "42",
   "inLanguage": "zh",
   "datePublished": "2025-02-02T00:00:00Z",
   "dateModified": "2025-02-02T00:00:00Z",
@@ -213,8 +213,8 @@
 <p>{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  </p>
 <p>{{ $targetDateParsed := time $targetDate }}  
-{{ $diff := sub $today $targetDateParsed }}  
-{{ $days := div (float64 $diff) 86400 }}  </p>
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Hours | div 24 }}  </p>
 <p>持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。</p>
 
 

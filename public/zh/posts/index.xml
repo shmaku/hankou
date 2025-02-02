@@ -19,8 +19,8 @@
 &lt;p&gt;{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  &lt;/p&gt;
 &lt;p&gt;{{ $targetDateParsed := time $targetDate }}  
-{{ $diff := sub $today $targetDateParsed }}  
-{{ $days := div (float64 $diff) 86400 }}  &lt;/p&gt;
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Hours | div 24 }}  &lt;/p&gt;
 &lt;p&gt;持仓 {{ $days | printf &amp;ldquo;%.0f&amp;rdquo; }} 天。&lt;/p&gt;</description>
     </item>
     <item>
