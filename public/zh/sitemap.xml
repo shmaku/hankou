@@ -29,5 +29,7 @@
     <loc>https://hankou.pages.dev/zh/categories/</loc>
   </url><url>
     <loc>https://hankou.pages.dev/zh/tags/</loc>
+  </url><url>
+    <loc>https://hankou.pages.dev/zh/posts/top/</loc>
   </url>
 </urlset>

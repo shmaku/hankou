@@ -1,6 +1,6 @@
 +++
 title = '持仓'
-date = 'now'
+date = {{ now.Format "2006-01-02" }}
 draft = false
 type = 'top'
 +++
