@@ -13,9 +13,11 @@ target_date = "2024-12-13"
 {{ $today := now }}  <!-- 获取今天的日期 -->
 
 <!-- 计算天数差 -->
-{{ $targetDateParsed := time $targetDate "2006-01-02" }}  <!-- 转换目标日期 -->
+{{ $targetDateParsed := time $targetDate "2006-01-02" }}  <!-- 转换目标日期为时间对象 -->
 {{ $diff := $today.Sub $targetDateParsed }}  <!-- 计算日期差 -->
-{{ $days := $diff.Truncate "24h" | div 86400 }}  <!-- 将结果转换为天数 -->
+
+<!-- 从秒数计算天数 -->
+{{ $days := div $diff.Seconds 86400 }}  <!-- 使用秒数除以一天的秒数 -->
 
 <!-- 显示结果 -->
 持仓 {{ $days | printf "%.0f" }} 天。

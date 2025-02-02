@@ -16,11 +16,12 @@
       <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
 2024/12/13&lt;br&gt;
 ￥21.67&lt;/p&gt;
-&lt;p&gt;{{ $today := now }}
-{{ $previousDate := &amp;ldquo;2024-12-13&amp;rdquo; | time.AsTime }}&lt;br&gt;
-{{ $daysDifference := sub (time $today) (time $previousDate) | time.Days }}
-{{ $daysDifference | int }}&lt;/p&gt;
-&lt;p&gt;持仓 {{ $daysDifference | int }} 天。&lt;/p&gt;</description>
+&lt;p&gt;{{ $targetDate := .Params.target_date }}  
+{{ $today := now }}  &lt;/p&gt;
+&lt;p&gt;{{ $targetDateParsed := time $targetDate &amp;ldquo;2006-01-02&amp;rdquo; }}  
+{{ $diff := $today.Sub $targetDateParsed }}  
+{{ $days := $diff.Truncate &amp;ldquo;24h&amp;rdquo; | div 86400 }}  &lt;/p&gt;
+&lt;p&gt;持仓 {{ $days | printf &amp;ldquo;%.0f&amp;rdquo; }} 天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>承兑</title>
