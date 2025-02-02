@@ -10,10 +10,10 @@
 <meta name="description" content="新和成 （002001）
 2024/12/13
 ￥21.67
-{{ $targetDate := .Params.target_2024-12-13 }}  
+{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
-{{ $dateFormat := &ldquo;2006-01-02&rdquo; }}  
-{{ $diff := sub (time $today) (time $targetDate) }}
+{{ $targetDateParsed := time $targetDate }}  
+{{ $diff := sub $today $targetDateParsed }}  
 {{ $days := div (float64 $diff) 86400 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。">
 <meta name="author" content="">
@@ -67,10 +67,10 @@
 <meta property="og:description" content="新和成 （002001）
 2024/12/13
 ￥21.67
-{{ $targetDate := .Params.target_2024-12-13 }}  
+{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
-{{ $dateFormat := &ldquo;2006-01-02&rdquo; }}  
-{{ $diff := sub (time $today) (time $targetDate) }}
+{{ $targetDateParsed := time $targetDate }}  
+{{ $diff := sub $today $targetDateParsed }}  
 {{ $days := div (float64 $diff) 86400 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。" />
 <meta property="og:type" content="article" />
@@ -83,10 +83,10 @@
 <meta name="twitter:description" content="新和成 （002001）
 2024/12/13
 ￥21.67
-{{ $targetDate := .Params.target_2024-12-13 }}  
+{{ $targetDate := .Params.target_date }}  
 {{ $today := now }}  
-{{ $dateFormat := &ldquo;2006-01-02&rdquo; }}  
-{{ $diff := sub (time $today) (time $targetDate) }}
+{{ $targetDateParsed := time $targetDate }}  
+{{ $diff := sub $today $targetDateParsed }}  
 {{ $days := div (float64 $diff) 86400 }}  
 持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。"/>
 
@@ -117,12 +117,12 @@
   "@type": "BlogPosting",
   "headline": "持仓",
   "name": "持仓",
-  "description": "新和成 （002001） 2024/12/13 ￥21.67\n{{ $targetDate := .Params.target_2024-12-13 }} {{ $today := now }} {{ $dateFormat := \u0026ldquo;2006-01-02\u0026rdquo; }} {{ $diff := sub (time $today) (time $targetDate) }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf \u0026ldquo;%.0f\u0026rdquo; }} 天。\n",
+  "description": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := sub $today $targetDateParsed }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf \u0026ldquo;%.0f\u0026rdquo; }} 天。\n",
   "keywords": [
     
   ],
-  "articleBody": "新和成 （002001） 2024/12/13 ￥21.67\n{{ $targetDate := .Params.target_2024-12-13 }} {{ $today := now }} {{ $dateFormat := “2006-01-02” }} {{ $diff := sub (time $today) (time $targetDate) }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf “%.0f” }} 天。\n",
-  "wordCount" : "44",
+  "articleBody": "新和成 （002001）\n2024/12/13\n￥21.67\n{{ $targetDate := .Params.target_date }} {{ $today := now }} {{ $targetDateParsed := time $targetDate }} {{ $diff := sub $today $targetDateParsed }} {{ $days := div (float64 $diff) 86400 }} 持仓 {{ $days | printf “%.0f” }} 天。\n",
+  "wordCount" : "43",
   "inLanguage": "zh",
   "datePublished": "2025-02-02T00:00:00Z",
   "dateModified": "2025-02-02T00:00:00Z",
@@ -207,13 +207,13 @@
 
 </div>
   </header> 
-  <div class="post-content"><p>新和成 （002001）
-2024/12/13
+  <div class="post-content"><p>新和成 （002001）<br>
+2024/12/13<br>
 ￥21.67</p>
-<p>{{ $targetDate := .Params.target_2024-12-13 }}  
-{{ $today := now }}  
-{{ $dateFormat := &ldquo;2006-01-02&rdquo; }}  </p>
-<p>{{ $diff := sub (time $today) (time $targetDate) }}
+<p>{{ $targetDate := .Params.target_date }}  
+{{ $today := now }}  </p>
+<p>{{ $targetDateParsed := time $targetDate }}  
+{{ $diff := sub $today $targetDateParsed }}  
 {{ $days := div (float64 $diff) 86400 }}  </p>
 <p>持仓 {{ $days | printf &ldquo;%.0f&rdquo; }} 天。</p>
 
