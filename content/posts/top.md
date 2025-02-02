@@ -9,15 +9,14 @@ target_date = "2024-12-13"
 2024/12/13  
 ￥21.67
 
-{{ $targetDate := .Params.target_date }}  <!-- 获取目标日期 -->
-{{ $today := now }}  <!-- 获取今天的日期 -->
+持仓
+<div id="daysDifference"></div>
 
-<!-- 计算天数差 -->
-{{ $targetDateParsed := time $targetDate "2006-01-02" }}  <!-- 转换目标日期为时间对象 -->
-{{ $diff := $today.Sub $targetDateParsed }}  <!-- 计算日期差 -->
-
-<!-- 从秒数计算天数 -->
-{{ $days := div $diff.Seconds 86400 }}  <!-- 使用秒数除以一天的秒数 -->
-
-<!-- 显示结果 -->
-持仓 {{ $days | printf "%.0f" }} 天。
+<script>
+    const today = new Date();
+    const previousDate = new Date('2024-12-13'); // 这里假设之前某日是2024年12月13日
+    const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+    const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
+    document.getElementById('daysDifference').innerText = diffDays;
+</script>
+天。
