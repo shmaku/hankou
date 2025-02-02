@@ -1,6 +1,6 @@
 +++
 title = '持仓'
-date = {{ .GitDate }}
+date = 'now'
 draft = false
 type = 'top'
 +++
