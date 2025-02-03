@@ -1,5 +1,6 @@
 +++
 title = "持仓"
+data = now
 draft = false
 +++
 
@@ -7,15 +8,7 @@ draft = false
 2024/12/13  
 ￥21.67
 
-持仓 51 天。
-
-<div id="message"></div>
-
-<script>
-    document.getElementById('message').innerText = 'Hello World!';
-</script>
-
-<div id="daysDifference"></div>
+持仓 <span id="daysDifference"></span> 天。
 
 <script>
     const today = new Date();

@@ -12,6 +12,8 @@
 ￥21.67
 持仓 51 天。
 
+
+
 ">
 <meta name="author" content="">
 <link rel="canonical" href="https://hankou.pages.dev/zh/posts/top/">
@@ -66,6 +68,8 @@
 ￥21.67
 持仓 51 天。
 
+
+
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hankou.pages.dev/zh/posts/top/" /><meta property="article:section" content="posts" />
@@ -78,6 +82,8 @@
 2024/12/13
 ￥21.67
 持仓 51 天。
+
+
 
 "/>
 
@@ -205,6 +211,14 @@
 <div id="message"></div>
 <script>
     document.getElementById('message').innerText = 'Hello World!';
+</script>
+<div id="daysDifference"></div>
+<script>
+    const today = new Date();
+    const previousDate = new Date('2024-12-13'); // 这里假设之前某日是2024年12月13日
+    const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
+    const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
+    document.getElementById('daysDifference').innerText = diffDays;
 </script>
 
   </div>

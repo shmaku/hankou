@@ -66,6 +66,14 @@
 &lt;div id=&#34;message&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
     document.getElementById(&#39;message&#39;).innerText = &#39;Hello World!&#39;;
+&lt;/script&gt;
+&lt;div id=&#34;daysDifference&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+    const today = new Date();
+    const previousDate = new Date(&#39;2024-12-13&#39;); // 这里假设之前某日是2024年12月13日
+    const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
+    const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
+    document.getElementById(&#39;daysDifference&#39;).innerText = diffDays;
 &lt;/script&gt;</description>
     </item>
   </channel>
