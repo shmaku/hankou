@@ -1,6 +1,5 @@
 +++
 title = "持仓"
-date = 2025-02-02
 draft = false
 +++
 
@@ -10,8 +9,8 @@ draft = false
 
 持仓 51 天。
 
-<div id="output"></div>
+<div id="message"></div>
 
 <script>
-  document.getElementById('output').innerText = 'Hello World';
+    document.getElementById('message').innerText = 'Hello World';
 </script>

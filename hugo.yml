@@ -13,3 +13,7 @@ params:
       url: "https://twitter.com/yourhandle"
     - name: "github"
       url: "https://github.com/yourhandle"
+
+markup:
+  goldmark:
+    renderer: "unsafe"
