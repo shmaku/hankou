@@ -12,5 +12,5 @@ draft = false
 <div id="message"></div>
 
 <script>
-    document.getElementById('message').innerText = 'Hello World';
+    document.getElementById('message').innerText = 'Hello World!';
 </script>

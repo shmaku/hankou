@@ -16,4 +16,5 @@ params:
 
 markup:
   goldmark:
-    renderer: "unsafe"
+    renderer:
+      unsafe: true
