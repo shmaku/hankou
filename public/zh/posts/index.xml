@@ -62,12 +62,7 @@
       <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
 2024/12/13&lt;br&gt;
 ￥21.67&lt;/p&gt;
-&lt;p&gt;持仓 51 天。&lt;/p&gt;
-&lt;div id=&#34;message&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-    document.getElementById(&#39;message&#39;).innerText = &#39;Hello World!&#39;;
-&lt;/script&gt;
-&lt;div id=&#34;daysDifference&#34;&gt;&lt;/div&gt;
+&lt;p&gt;持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天。&lt;/p&gt;
 &lt;script&gt;
     const today = new Date();
     const previousDate = new Date(&#39;2024-12-13&#39;); // 这里假设之前某日是2024年12月13日

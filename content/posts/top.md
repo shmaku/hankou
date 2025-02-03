@@ -1,6 +1,6 @@
 +++
 title = "持仓"
-data = 2025-02-03
+date = 2025-02-03
 draft = false
 +++
 
@@ -8,7 +8,7 @@ draft = false
 2024/12/13  
 ￥21.67
 
-持仓 <span id="daysDifference"></span> 天。
+持仓 <span id="daysDifference"></span> 天……
 
 <script>
     const today = new Date();
