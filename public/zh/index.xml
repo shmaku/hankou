@@ -15,8 +15,8 @@
       <guid>https://hankou.pages.dev/zh/posts/top/</guid>
       <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
 2024/12/13&lt;br&gt;
-￥21.67
-最新价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;
+￥21.67&lt;br&gt;
+最新价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;&lt;br&gt;
 持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天……&lt;/p&gt;
 &lt;script&gt;
     const today = new Date();
@@ -25,29 +25,38 @@
     const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
     document.getElementById(&#39;daysDifference&#39;).innerText = diffDays;
 &lt;/script&gt;
- &lt;script&gt;
-        async function getStockPrice() {
-            const apiKey = &#39;U31XQFWRL9AC1J4Z&#39;;  // 使用有效的API密钥
-            const symbol = &#39;002001.SZ&#39;;  // 股票代码已加引号
-            const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=${symbol}&amp;outputsize=full&amp;apikey=${apiKey}`;
+&lt;script&gt;
+    async function getStockPrice() {
+        const apiKey = &#39;U31XQFWRL9AC1J4Z&#39;;  // 请替换为有效的API密钥
+        const symbol = &#39;002001.SZ&#39;;  
+        const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=${symbol}&amp;outputsize=full&amp;apikey=${apiKey}`;
+        
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
             
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-                
-                if (data[&#34;Time Series (Daily)&#34;]) {
-                    // 获取最近的时间和价格
-                    const latestTime = Object.keys(data[&#34;Time Series (Daily)&#34;])[0];
-                    const latestData = data[&#34;Time Series (Daily)&#34;][latestTime];
-                    const price = latestData[&#34;4. close&#34;];
+            if (data[&#34;Time Series (Daily)&#34;]) {
+                // 获取最近的时间和价格
+                const latestTime = Object.keys(data[&#34;Time Series (Daily)&#34;])[0];
+                const latestData = data[&#34;Time Series (Daily)&#34;][latestTime];
+                const price = latestData[&#34;4. close&#34;];
 
-                    // 将价格保留两位小数
-                    const formattedPrice = parseFloat(price).toFixed(2);
-                    document.getElementById(&#39;stockPrice&#39;).innerText = `￥${formattedPrice}`;
+                // 将价格保留两位小数
+                const formattedPrice = parseFloat(price).toFixed(2);
 
-                }
-                }
-    &lt;/script&gt;</description>
+                // 显示最新的价格
+                document.getElementById(&#39;stockPrice&#39;).innerText = `￥${formattedPrice}`;
+            } else {
+                document.getElementById(&#39;stockPrice&#39;).innerText = &#39;获取价格失败，请检查API调用或股票代码是否正确。&#39;;
+            }
+        } catch (error) {
+            document.getElementById(&#39;stockPrice&#39;).innerText = &#39;请求失败，出现错误。&#39;;
+        }
+    }
+
+    // 页面加载时获取股票价格
+    window.onload = getStockPrice;
+&lt;/script&gt;</description>
     </item>
     <item>
       <title>承兑</title>

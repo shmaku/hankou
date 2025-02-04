@@ -13,7 +13,7 @@
 最新价格：
 持仓  天……
 
- ">
+">
 <meta name="author" content="">
 <link rel="canonical" href="https://hankou.pages.dev/zh/posts/top/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
@@ -68,7 +68,7 @@
 最新价格：
 持仓  天……
 
- " />
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hankou.pages.dev/zh/posts/top/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2025-02-03T00:00:00+00:00" />
@@ -82,7 +82,7 @@
 最新价格：
 持仓  天……
 
- "/>
+"/>
 
 
 <script type="application/ld+json">
@@ -111,11 +111,11 @@
   "@type": "BlogPosting",
   "headline": "持仓",
   "name": "持仓",
-  "description": "新和成 （002001）\n2024/12/13\n￥21.67 最新价格： 持仓 天……\n",
+  "description": "新和成 （002001）\n2024/12/13\n￥21.67\n最新价格：\n持仓 天……\n",
   "keywords": [
     
   ],
-  "articleBody": "新和成 （002001）\n2024/12/13\n￥21.67 最新价格： 持仓 天……\n",
+  "articleBody": "新和成 （002001）\n2024/12/13\n￥21.67\n最新价格：\n持仓 天……\n",
   "wordCount" : "7",
   "inLanguage": "zh",
   "datePublished": "2025-02-03T00:00:00Z",
@@ -203,8 +203,8 @@
   </header> 
   <div class="post-content"><p>新和成 （002001）<br>
 2024/12/13<br>
-￥21.67
-最新价格：<span id="stockPrice"></span>
+￥21.67<br>
+最新价格：<span id="stockPrice"></span><br>
 持仓 <span id="daysDifference"></span> 天……</p>
 <script>
     const today = new Date();
@@ -213,29 +213,39 @@
     const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
     document.getElementById('daysDifference').innerText = diffDays;
 </script>
- <script>
-        async function getStockPrice() {
-            const apiKey = 'U31XQFWRL9AC1J4Z';  // 使用有效的API密钥
-            const symbol = '002001.SZ';  // 股票代码已加引号
-            const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=full&apikey=${apiKey}`;
+<script>
+    async function getStockPrice() {
+        const apiKey = 'U31XQFWRL9AC1J4Z';  // 请替换为有效的API密钥
+        const symbol = '002001.SZ';  
+        const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=full&apikey=${apiKey}`;
+        
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
             
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-                
-                if (data["Time Series (Daily)"]) {
-                    // 获取最近的时间和价格
-                    const latestTime = Object.keys(data["Time Series (Daily)"])[0];
-                    const latestData = data["Time Series (Daily)"][latestTime];
-                    const price = latestData["4. close"];
+            if (data["Time Series (Daily)"]) {
+                // 获取最近的时间和价格
+                const latestTime = Object.keys(data["Time Series (Daily)"])[0];
+                const latestData = data["Time Series (Daily)"][latestTime];
+                const price = latestData["4. close"];
 
-                    // 将价格保留两位小数
-                    const formattedPrice = parseFloat(price).toFixed(2);
-                    document.getElementById('stockPrice').innerText = `￥${formattedPrice}`;
+                // 将价格保留两位小数
+                const formattedPrice = parseFloat(price).toFixed(2);
 
-                }
-                }
-    </script>
+                // 显示最新的价格
+                document.getElementById('stockPrice').innerText = `￥${formattedPrice}`;
+            } else {
+                document.getElementById('stockPrice').innerText = '获取价格失败，请检查API调用或股票代码是否正确。';
+            }
+        } catch (error) {
+            document.getElementById('stockPrice').innerText = '请求失败，出现错误。';
+        }
+    }
+
+    // 页面加载时获取股票价格
+    window.onload = getStockPrice;
+</script>
+
 
   </div>
 
