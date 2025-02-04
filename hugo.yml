@@ -9,8 +9,8 @@ sectionPagesMenu: main
 
 params:
   social:
-    - name: "twitter"
-      url: "https://twitter.com/yourhandle"
+    - name: "X"
+      url: "https://X.com/yourhandle"
     - name: "github"
       url: "https://github.com/yourhandle"
 
