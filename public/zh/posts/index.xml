@@ -4,7 +4,7 @@
     <title>Posts on HANKOU</title>
     <link>https://hankou.pages.dev/zh/posts/</link>
     <description>Recent content in Posts on HANKOU</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.0</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hankou.pages.dev/zh/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -15,15 +15,39 @@
       <guid>https://hankou.pages.dev/zh/posts/top/</guid>
       <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
 2024/12/13&lt;br&gt;
-￥21.67&lt;/p&gt;
-&lt;p&gt;持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天……&lt;/p&gt;
+￥21.67
+最新价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;
+持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天……&lt;/p&gt;
 &lt;script&gt;
     const today = new Date();
     const previousDate = new Date(&#39;2024-12-13&#39;); // 这里假设之前某日是2024年12月13日
     const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
     const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
     document.getElementById(&#39;daysDifference&#39;).innerText = diffDays;
-&lt;/script&gt;</description>
+&lt;/script&gt;
+ &lt;script&gt;
+        async function getStockPrice() {
+            const apiKey = &#39;U31XQFWRL9AC1J4Z&#39;;  // 使用有效的API密钥
+            const symbol = &#39;002001.SZ&#39;;  // 股票代码已加引号
+            const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=${symbol}&amp;outputsize=full&amp;apikey=${apiKey}`;
+            
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                if (data[&#34;Time Series (Daily)&#34;]) {
+                    // 获取最近的时间和价格
+                    const latestTime = Object.keys(data[&#34;Time Series (Daily)&#34;])[0];
+                    const latestData = data[&#34;Time Series (Daily)&#34;][latestTime];
+                    const price = latestData[&#34;4. close&#34;];
+
+                    // 将价格保留两位小数
+                    const formattedPrice = parseFloat(price).toFixed(2);
+                    document.getElementById(&#39;stockPrice&#39;).innerText = `￥${formattedPrice}`;
+
+                }
+                }
+    &lt;/script&gt;</description>
     </item>
     <item>
       <title>承兑</title>
@@ -34,7 +58,7 @@
 &lt;p&gt;在一个晴朗的下午，当刘皮匠在月亮河边清洗兽皮的时候，无意中捡到了一个海螺。这个东西与其他的蚌壳长得完全不同，他从来也没有见过。握在手里像一个喇叭，压住耳朵，还可以听到嗡嗡的声音。&lt;/p&gt;
 &lt;p&gt;刘皮匠认为他捡到的是个宝贝，他很喜欢这个海螺。后来，他将海螺抵给老张头换了 10 石谷子，刘皮匠承诺，老张头随时可以用海螺到他的皮货作坊换三件最新的兽皮袄子。&lt;/p&gt;
 &lt;p&gt;胡三是部落里的闲人，他负责打扫祠堂前的草场，部落里的人家轮流管他三餐的吃食。无意间，胡三在山沟深处的涧水沟里发现了好多的海螺，于是，他就每隔一个月拿一个海螺去刘皮匠的作坊换三件皮袄子。&lt;/p&gt;
-&lt;p&gt;因为刘皮匠喜欢海螺，于是，胡三的海螺，他都要了。后来，胡三除了用海螺换皮袄子，还去老李头那里换谷子。因为刘皮匠喜欢海螺，可以到他那里换皮袄子，老李头也接受海螺。他还用海螺去赵天喜家里去换柴火，赵天喜收了海螺后去盐铺换盐。&lt;/p&gt;
+&lt;p&gt;因为刘皮匠喜欢海螺，于是，胡三的海螺，他都要了。后来，胡三除了用海螺换皮袄子，还去老张头那里换谷子。因为刘皮匠喜欢海螺，可以到他那里换皮袄子，老张头也接受海螺。他还用海螺去赵天喜家里去换柴火，赵天喜收了海螺后去盐铺换盐。&lt;/p&gt;
 &lt;p&gt;因为刘皮匠喜欢海螺，部落里所有的人都知道，他们可以拿海螺去刘皮匠的作坊换皮袄子，所以，所有的人都接受海螺换自己家里的东西。&lt;/p&gt;
 &lt;p&gt;后来，部落的首领欧阳补琴也喜欢将海螺摆在自己家里的供桌上，于是，他组织垄断了海螺的发行，并在海螺上烙上了部落的徽章。信用叠加权威，才得以建立金融系统。
 于是货币产生了。&lt;/p&gt;
