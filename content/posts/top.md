@@ -1,7 +1,7 @@
 +++
 title = "持仓"
 date = 2025-02-27
-author: "Acj"
+author = "Acj"
 +++
 
 新和成 （002001）  
