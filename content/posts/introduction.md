@@ -1,7 +1,6 @@
 +++
 title = 'My First Post'
 date = 2024-06-04T14:08:40+08:00
-draft = false
 +++
 
 # 一粒微尘漫游在无边的宇宙之中
