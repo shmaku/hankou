@@ -14,9 +14,9 @@
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://hankou.pages.dev/zh/posts/top/</guid>
       <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
-2024/12/13&lt;br&gt;
-￥21.67&lt;br&gt;
-最新价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;&lt;br&gt;
+买入日期：2024年12月13日&lt;br&gt;
+买入价格：￥21.67&lt;br&gt;
+上一个交易日收盘价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;&lt;br&gt;
 持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天……&lt;/p&gt;
 &lt;script&gt;
     const today = new Date();
