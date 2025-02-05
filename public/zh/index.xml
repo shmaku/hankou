@@ -6,8 +6,58 @@
     <description>Recent content on HANKOU</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hankou.pages.dev/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>持仓</title>
+      <link>https://hankou.pages.dev/zh/posts/top/</link>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://hankou.pages.dev/zh/posts/top/</guid>
+      <description>&lt;p&gt;新和成 （002001）&lt;br&gt;
+买入日期：2024年12月13日&lt;br&gt;
+买入价格：￥21.67&lt;br&gt;
+上一个交易日收盘价格：&lt;span id=&#34;stockPrice&#34;&gt;&lt;/span&gt;&lt;br&gt;
+持仓 &lt;span id=&#34;daysDifference&#34;&gt;&lt;/span&gt; 天……&lt;/p&gt;
+&lt;script&gt;
+    const today = new Date();
+    const previousDate = new Date(&#39;2024-12-13&#39;); // 这里假设之前某日是2024年12月13日
+    const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
+    const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
+    document.getElementById(&#39;daysDifference&#39;).innerText = diffDays;
+&lt;/script&gt;
+&lt;script&gt;
+    async function getStockPrice() {
+        const apiKey = &#39;U31XQFWRL9AC1J4Z&#39;;  // 请替换为有效的API密钥
+        const symbol = &#39;002001.SHZ&#39;;  
+        const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=${symbol}&amp;outputsize=full&amp;apikey=${apiKey}`;
+        
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            
+            if (data[&#34;Time Series (Daily)&#34;]) {
+                // 获取最近的时间和价格
+                const latestTime = Object.keys(data[&#34;Time Series (Daily)&#34;])[0];
+                const latestData = data[&#34;Time Series (Daily)&#34;][latestTime];
+                const price = latestData[&#34;4. close&#34;];
+
+                // 将价格保留两位小数
+                const formattedPrice = parseFloat(price).toFixed(2);
+
+                // 显示最新的价格
+                document.getElementById(&#39;stockPrice&#39;).innerText = `￥${formattedPrice}`;
+            } else {
+                document.getElementById(&#39;stockPrice&#39;).innerText = &#39;获取价格失败，请检查API调用或股票代码是否正确。&#39;;
+            }
+        } catch (error) {
+            document.getElementById(&#39;stockPrice&#39;).innerText = &#39;请求失败，出现错误。&#39;;
+        }
+    }
+
+    // 页面加载时获取股票价格
+    window.onload = getStockPrice;
+&lt;/script&gt;</description>
+    </item>
     <item>
       <title>承兑</title>
       <link>https://hankou.pages.dev/zh/posts/2025_1_27/</link>
