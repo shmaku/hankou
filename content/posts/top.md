@@ -5,9 +5,9 @@ draft = false
 +++
 
 新和成 （002001）  
-2024/12/13  
-￥21.67  
-最新价格：<span id="stockPrice"></span>  
+买入日期：2024年12月13日  
+买入价格：￥21.67  
+上一个交易日收盘价格：<span id="stockPrice"></span>  
 持仓 <span id="daysDifference"></span> 天……
 
 <script>

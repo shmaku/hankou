@@ -28,7 +28,7 @@
 &lt;script&gt;
     async function getStockPrice() {
         const apiKey = &#39;U31XQFWRL9AC1J4Z&#39;;  // 请替换为有效的API密钥
-        const symbol = &#39;002001.SZ&#39;;  
+        const symbol = &#39;002001.SHZ&#39;;  
         const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=${symbol}&amp;outputsize=full&amp;apikey=${apiKey}`;
         
         try {
