@@ -1,0 +1,66 @@
+{{ define "main" }}  // 或者你的主题定义的 main block
+
+<article class="homepage-documentation-style"> // 给首页一个class方便写CSS
+    <header>
+        <h1>{{ .Title }}</h1> // 如果 content/_index.md 有 title
+        {{ .Content }} // 显示 content/_index.md 的内容
+    </header>
+
+    <div class="documentation-sections">
+        <h2>主要内容栏目</h2> // 或者其他标题
+
+        <ul>
+            {{ range .Site.Sections }} // 遍历网站的所有 Section (顶级栏目)
+                {{ if .Sections }} // 如果这个 Section 还有子 Section (通常文档站层级多)
+                    // 你可能需要递归显示层级，这里简化只显示一级Section
+                {{ end }}
+
+                {{ if or (.IsSection) (.IsPage) }} // 确保是 Section 或页面，排除其他类型
+                  {{ if ne .Title "404" }} // 排除不需要显示的特殊页面/栏目
+                    {{ if ne .Title "Posts" }} // 如果你不希望显示默认的 Posts 栏目
+                        <li class="section-item">
+                            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3> // 显示栏目标题和链接
+                            {{ with .Params.description }} // 如果你在栏目的 _index.md 里加了description
+                                <p>{{ . }}</p> // 显示栏目描述
+                            {{ end }}
+
+                            {{/* 如果你想在首页也列出该栏目下的部分文章 */}}
+                            <ul>
+                                {{ range first 5 .Pages }} // 列出该栏目下最新的5篇文章
+                                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+            {{ end }}
+
+             {{/* 如果你想单独列出不在任何标准 Section 下的页面 */}}
+             {{ range .Site.RegularPages }}
+                  {{ if .IsHome }} {{/* 排除首页本身 */}}
+                  {{ else }}
+                     {{ if not .IsSection }} {{/* 如果你想列出一些顶级单页 */}}
+                         {{/* <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li> */}}
+                     {{ end }}
+                  {{ end }}
+             {{ end }}
+        </ul>
+    </div>
+
+    {{/* 你还可以在这里添加其他内容，比如最新文章列表（如果需要的话） */}}
+    {{/*
+    <div class="latest-articles">
+         <h2>最新文章</h2>
+         <ul>
+             {{ range first 10 .Site.RegularPages }}
+                  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+             {{ end }}
+         </ul>
+    </div>
+    */}}
+
+
+</article>
+
+{{ end }}

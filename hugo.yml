@@ -3,7 +3,7 @@ defaultContentLanguageInSubdir: true
 baseURL: https://hankou.pages.dev
 languageCode: zh
 title: HANKOU
-theme: papermod
+# theme: papermod
 
 sectionPagesMenu: main
 
