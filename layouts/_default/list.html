@@ -1,0 +1,28 @@
+    {{ define "main" }} // 同样，如果你的主题有 baseof.html 并定义了 main block，则需要保留 define/end
+    {{/* 如果没有 baseof.html，或者 list.html 是一个独立的完整页面模板，则移除 define/end */}}
+
+    <main>
+        <header>
+            <h1>{{ .Title }}</h1> {{/* 显示当前列表页的标题，比如 "Posts" */}}
+            {{ with .Content }}
+                <div>{{ . }}</div> {{/* 如果 Section 的 _index.md 有内容，则显示 */}}
+            {{ end }}
+        </header>
+
+        <ul>
+            {{ range .Pages }} {{/* 遍历当前列表页下的所有子页面或文章 */}}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{/* 显示文章标题和链接 */}}
+                    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time> {{/* 显示日期 */}}
+                </li>
+            {{ end }}
+        </ul>
+
+        {{/* 如果需要分页，可以在这里添加分页导航 */}}
+        {{ template "_internal/pagination.html" . }}
+
+    </main>
+
+    {{/* 如果使用了 define "main" */}}
+    {{ end }}
+    
