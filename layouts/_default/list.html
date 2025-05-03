@@ -1,9 +1,8 @@
-    {{ define "main" }} // 同样，如果你的主题有 baseof.html 并定义了 main block，则需要保留 define/end
-    {{/* 如果没有 baseof.html，或者 list.html 是一个独立的完整页面模板，则移除 define/end */}}
+    {{ define "main" }} // 填充 baseof.html 中的 main block
 
-    <main>
+    <article>
         <header>
-            <h1>{{ .Title }}</h1> {{/* 显示当前列表页的标题，比如 "Posts" */}}
+            <h1>{{ .Title }}</h1> {{/* 显示当前列表页的标题 */}}
             {{ with .Content }}
                 <div>{{ . }}</div> {{/* 如果 Section 的 _index.md 有内容，则显示 */}}
             {{ end }}
@@ -21,8 +20,7 @@
         {{/* 如果需要分页，可以在这里添加分页导航 */}}
         {{ template "_internal/pagination.html" . }}
 
-    </main>
+    </article>
 
-    {{/* 如果使用了 define "main" */}}
-    {{ end }}
+    {{ end }} // 结束 main block 定义
     

@@ -1,58 +1,51 @@
-{{/*
-  This is the custom layout for the homepage (/).
-  It lists the main sections of the website, similar to a documentation index page.
-  Remove the define/end tags as this file is likely intended as a standalone layout.
-*/}}
+    {{ define "main" }} // 填充 baseof.html 中的 main block
 
-<article class="homepage-sections-index"> {{/* Give homepage a class for CSS styling */}}
-    <header class="homepage-header">
-        {{ with .Site.GetPage "_index.md" }} {{/* Get content from content/_index.md */}}
-            <h1>{{ .Title }}</h1> {{/* Display title from _index.md */}}
-            {{ .Content }} {{/* Display content from _index.md */}}
-        {{ end }}
-    </header>
+    <article class="homepage-sections-index"> {{/* 给首页一个 class 方便写 CSS 样式 */}}
+        <header class="homepage-header">
+            {{ with .Site.GetPage "_index.md" }} {{/* 获取 content/_index.md 文件 */}}
+                <h1>{{ .Title }}</h1> {{/* 显示 _index.md 的标题 */}}
+                {{ .Content }} {{/* 显示 _index.md 的内容 */}}
+            {{ end }}
+        </header>
 
-    <div class="main-sections-list">
-        <h2>Website Main Content Sections</h2> {{/* You can change this title */}}
+        <div class="main-sections-list">
+            <h2>Website Main Content Sections</h2> {{/* 你可以修改这个标题 */}}
 
-        <ul class="sections-ul">
-            {{ range .Site.Sections }} {{/* Loop through all top-level Sections (folders in content/) */}}
+            <ul class="sections-ul">
+                {{ range .Site.Sections }} {{/* Loop through all top-level Sections (folders in content/) */}}
 
-                {{/* Exclude default Hugo sections or ones you don't want listed on the homepage */}}
-                {{ if and (.IsSection) (ne .Title "404") (ne .Title "Posts") (ne .Title "post") }} {{/* Check if it's a Section and exclude 404 and default Posts/post */}}
+                    {{/* Exclude default Hugo sections or ones you don't want listed on the homepage */}}
+                    {{ if and (.IsSection) (ne .Title "404") (ne .Title "Posts") (ne .Title "post") }} {{/* Check if it's a Section and exclude 404 and default Posts/post */}}
 
-                    <li class="section-item">
-                        <h3 class="section-title">
-                            <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{/* Display Section title and link to its list page */}}
-                        </h3>
+                        <li class="section-item">
+                            <h3 class="section-title">
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{/* Display Section title and link to its list page */}}
+                            </h3>
 
-                        {{ with .Params.description }} {{/* If description is defined in the Section's _index.md front matter */}}
-                            <p class="section-description">{{ . }}</p> {{/* Display Section description */}}
-                        {{ end }}
-
-                        {{/* Optional: List a few recent pages from this section on the homepage */}}
-                        <ul class="section-pages-list">
-                            {{ range first 5 .Pages }} {{/* Loop through the latest 5 pages in this Section */}}
-                                {{ if .IsPage }} {{/* Ensure it's a single page */}}
-                                    <li>
-                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{/* Display page title and link to the page */}}
-                                    </li>
-                                {{ end }}
+                            {{ with .Params.description }} {{/* If description is defined in the Section's _index.md front matter */}}
+                                <p class="section-description">{{ . }}</p> {{/* Display Section description */}}
                             {{ end }}
-                        </ul>
-                    </li>
 
-                {{ end }} {{/* End Section exclusion check */}}
-            {{ end }} {{/* End Section loop */}}
-        </ul>
-    </div>
+                            {{/* Optional: List a few recent pages from this section on the homepage */}}
+                            <ul class="section-pages-list">
+                                {{ range first 5 .Pages }} {{/* Loop through the latest 5 pages in this Section */}}
+                                    {{ if .IsPage }} {{/* Ensure it's a single page */}}
+                                        <li>
+                                            <a href="{{ .RelPermalink }}">{{ .Title }}</a> {{/* Display page title and link to the page */}}
+                                        </li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>
+                        </li>
 
-    {{/* You can add other content blocks here if needed */}}
+                    {{ end }} {{/* End Section exclusion check */}}
+                {{ end }} {{/* End Section loop */}}
+            </ul>
+        </div>
 
-</article>
+        {{/* 你还可以在这里添加其他内容块，比如一个关于网站的简短介绍等 */}}
 
-{{/*
-  Note: The CSS provided in the previous turn should be added to your theme's
-  CSS files to style this layout.
-*/}}
+    </article>
 
+    {{ end }} // 结束 main block 定义
+    
