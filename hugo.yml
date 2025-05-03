@@ -1,7 +1,7 @@
 defaultContentLanguage: zh
 defaultContentLanguageInSubdir: true
 baseURL: https://hankou.pages.dev
-languageCode: "en-us"
+languageCode: en-us
 title: HANKOU
 theme: PaperMod
 
