@@ -1,18 +1,11 @@
-# defaultContentLanguage: zh
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 baseURL: https://hankou.pages.dev
 languageCode: en-us
-title: HANKOU
+title: Hankou Investment & Business Insights
 theme: PaperMod
 
 sectionPagesMenu: main
-
-# 如果有 languages 部分，请确保它看起来像这样，或者直接移除如果只有一种语言
-languages:
-  en:
-    languageName: English
-    weight: 1 # 设置一个权重，确保它是唯一的或最低的，以便成为默认
-    # baseURL: "https://hankou.com/" # 不要在这里为默认语言设置 baseURL 来添加语言代码
 
 params:
   social:

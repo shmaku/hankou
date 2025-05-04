@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Abouts on HANKOU</title>
+    <link>https://hankou.pages.dev/en/about/</link>
+    <description>Recent content in Abouts on HANKOU</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hankou.pages.dev/en/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于 HANKOU.COM</title>
+      <link>https://hankou.pages.dev/en/about/about/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://hankou.pages.dev/en/about/about/</guid>
+      <description>&lt;p&gt;当时间跨过4年的时间以后，似乎所有的事情都要缓慢起来，初夏轻轻拂过的微风。于是，就开始了hankou.com
+今年的夏天进入得不算突兀，少了闷热潮湿的那几天，就显得韵味不足。
+买了几本纸书，字样，翻看起来就不会觉得太累&lt;/p&gt;
+&lt;p&gt;书写本就不是什么困难的事，只要是亦步亦趋，就可以堆积成山。&lt;/p&gt;
+&lt;p&gt;而且，采用写代码的方式书写文章，更加的有效率，不需要太多的琢磨就可以长篇大论。&lt;/p&gt;
+&lt;p&gt;从这样漫长的日子开始。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
