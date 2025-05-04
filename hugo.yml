@@ -1,16 +1,16 @@
 baseURL: https://hankou.pages.dev
 languageCode: en-us
 defaultContentLanguage: en
-title: Hankou Investment & Business Insights
+title: Hankou
 theme: PaperMod
 
 sectionPagesMenu: main
 
 params:
   homeInfoParams:
-    Title: Insight into investment, one step ahead
-    Content: Can be Info, links, about...
-  
+    Title: Insight into investment, one step ahead of business.
+    Content: A friendship founded on business is better than business founded on friendship. - John D. Rockefeller
+
   ShowShareButtons: true
   ShowReadingTime: true
   ShowPostNavLinks: true
