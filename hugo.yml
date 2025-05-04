@@ -1,7 +1,6 @@
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
 baseURL: https://hankou.pages.dev
 languageCode: en-us
+defaultContentLanguage: en
 title: Hankou Investment & Business Insights
 theme: PaperMod
 
