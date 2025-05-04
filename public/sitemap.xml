@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/top_position/</loc>
+    <loc>https://hankou.pages.dev/posts/top_position/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://hankou.pages.dev/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://hankou.pages.dev/posts/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025_1_26/</loc>
+    <loc>https://hankou.pages.dev/posts/2025_1_26/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025_1_27/</loc>
+    <loc>https://hankou.pages.dev/posts/2025_1_27/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://hankou.pages.dev/about/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/about/</loc>
+    <loc>https://hankou.pages.dev/about/about/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/introduction/</loc>
+    <loc>https://hankou.pages.dev/posts/introduction/</loc>
     <lastmod>2024-06-04T14:08:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2024_6_6/</loc>
+    <loc>https://hankou.pages.dev/posts/2024_6_6/</loc>
     <lastmod>2024-06-04T14:08:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/business-costs/</loc>
+    <loc>https://hankou.pages.dev/business-costs/</loc>
   </url><url>
-    <loc>http://localhost:1313/business-costs/office-rent/</loc>
+    <loc>https://hankou.pages.dev/business-costs/office-rent/</loc>
   </url><url>
-    <loc>http://localhost:1313/investment-guides/</loc>
+    <loc>https://hankou.pages.dev/investment-guides/</loc>
   </url><url>
-    <loc>http://localhost:1313/investment-guides/guide-1/</loc>
+    <loc>https://hankou.pages.dev/investment-guides/guide-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/regulations/</loc>
+    <loc>https://hankou.pages.dev/regulations/</loc>
   </url><url>
-    <loc>http://localhost:1313/regulations/reg-overview/</loc>
+    <loc>https://hankou.pages.dev/regulations/reg-overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://hankou.pages.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://hankou.pages.dev/tags/</loc>
   </url>
 </urlset>
