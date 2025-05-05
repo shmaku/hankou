@@ -1,16 +1,15 @@
 +++
-title = "持仓"
+title = "Positions"
 date = 2024-12-13
-weight = -1
 author = "Acj"
 +++
-"交易的目的是为了盈利。所有的交易行为必须说出理由，并且可以被调整。"<!--more-->
+"The purpose of trading is to make a profit. All trading actions must be justified and can be adjusted."<!--more--><br>
 
-新和成 （002001）  
-买入日期：2024年12月13日  
-买入均价：￥21.77 
-上一个交易日收盘价格：<span id="stockPrice"></span>  
-持仓 <span id="daysDifference"></span> 天……
+NHU (002001) <br> 
+Purchase date：2024/12/13日<br>  
+Average purchase price：￥21.77 <br>
+Closing price of the previous trading day：<span id="stockPrice"></span> <br> 
+Positions: <span id="daysDifference"></span> days
 
 <script>
     const today = new Date();
