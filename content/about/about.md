@@ -1,15 +1,16 @@
 +++
-title = '关于 HANKOU.COM'
+title = 'About'
 date = 2024-06-12
 draft = false
 +++
+After 4 years, everything seems to slow down, like the gentle breeze of early summer. So, hankou.com began.<br> 
 
-当时间跨过4年的时间以后，似乎所有的事情都要缓慢起来，初夏轻轻拂过的微风。于是，就开始了hankou.com
-今年的夏天进入得不算突兀，少了闷热潮湿的那几天，就显得韵味不足。
-买了几本纸书，字样，翻看起来就不会觉得太累
+This year's summer did not come abruptly. Without the hot and humid days, it seemed to lack charm. <br>
 
-书写本就不是什么困难的事，只要是亦步亦趋，就可以堆积成山。
+I bought a few paper books, so that I would not feel too tired when flipping through them.<br>
 
-而且，采用写代码的方式书写文章，更加的有效率，不需要太多的琢磨就可以长篇大论。
+Writing is not a difficult thing. As long as you follow the steps, you can pile up a mountain. <br>
 
-从这样漫长的日子开始。
+Moreover, writing articles in the way of writing code is more efficient, and you don't need to think too much to write long articles. <br>
+
+It started from such a long day.
