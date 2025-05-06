@@ -6,9 +6,9 @@ author = "Acj"
 "The purpose of trading is to make a profit. All trading actions must be justified and can be adjusted."<!--more--><br>
 
 NHU (002001) <br> 
-Purchase date：2024/12/13日<br>  
-Average purchase price：￥21.77 <br>
-Closing price of the previous trading day：<span id="stockPrice"></span> <br> 
+Purchase date：2024-12-13<br>  
+Average Purchase Price：￥21.77 <br>
+Closing Price of the Previous Trading Day：<span id="stockPrice"></span> <br> 
 Positions: <span id="daysDifference"></span> days
 
 <script>

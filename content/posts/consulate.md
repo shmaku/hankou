@@ -1,6 +1,6 @@
 +++
 title = 'Consulate'
-date = 2024-06-04T14:08:40+08:00
+date = 2024-06-04
 +++
 There are some foreign consulates in Wuhan (including Hankou area). The following are some countries with consulates in Wuhan and their contact information, sorted according to the latest public information. Please note that the consulate information may change, and the most accurate and detailed information should be consulted at the official website of the country's embassy in China or consulate in Wuhan.<br>
 
@@ -43,6 +43,6 @@ In addition to the above countries, there may be other countries that have consu
 
 Please be sure to visit the consulate's official website or call for final confirmation before going to the consulate or contacting it, because the address, phone number, office hours and service content may change. The phone number provided above is usually the switchboard or main contact number. Specific services (such as visas, passports, citizen services, etc.) may require transfer or inquiry of the extension or special contact information on the official website.
 
- hope this information is helpful to you!
+Hope this information is helpful to you!
 
 
