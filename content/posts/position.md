@@ -2,8 +2,9 @@
 title = "Positions"
 date = 2024-12-13
 author = "Acj"
+description = 'The purpose of trading is to make a profit'
 +++
-"The purpose of trading is to make a profit. All trading actions must be justified and can be adjusted."<!--more--><br>
+"**All trading actions must be justified and can be adjusted.**"<<br>
 
 NHU (002001) <br> 
 Purchase date：2024-12-13<br>  

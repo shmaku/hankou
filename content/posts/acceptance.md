@@ -1,9 +1,8 @@
 +++
 title = 'Acceptance'
 date = 2025-01-27
-weight = -1
-author = "Acj"
-description = "The foundation of the modern financial system is credit"
+author = 'Acj'
+description = 'The foundation of the modern financial system is credit'
 +++
 After nearly thirty years of exchange, Liu Pijiang has become the richest trader in the Jiaoting tribe. He runs a fur workshop. Liu Pijiang's fur coats can be exchanged for almost everything he wants in the tribe.<br>
 

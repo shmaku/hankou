@@ -1,8 +1,10 @@
 +++
 title = 'Consulate'
-date = 2024-06-04
+date = 2025-05-06
+author = 'Acj'
+description = 'There are some foreign consulates in Wuhan (including Hankou area)'
 +++
-There are some foreign consulates in Wuhan (including Hankou area). The following are some countries with consulates in Wuhan and their contact information, sorted according to the latest public information. Please note that the consulate information may change, and the most accurate and detailed information should be consulted at the official website of the country's embassy in China or consulate in Wuhan.<br>
+The following are some countries with consulates in Wuhan and their contact information, sorted according to the latest public information. Please note that the consulate information may change, and the most accurate and detailed information should be consulted at the official website of the country's embassy in China or consulate in Wuhan.<br>
 
 Many consulates in Hankou are usually concentrated in Jianghan District, Jiangan District and other areas, which are all part of the traditional Hankou area.<br>
 
