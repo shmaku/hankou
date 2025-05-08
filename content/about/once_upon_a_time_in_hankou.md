@@ -1,6 +1,6 @@
 +++
 title = 'Once Upon a Time in Hankou'
-date = 2025-5-8
+date = 2025-05-08
 author = 'Acj'
 description = 'Hankou Business Latecomers Take Advantage' 
 +++
