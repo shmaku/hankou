@@ -8,7 +8,7 @@ sectionPagesMenu: 'main'
 
 params:
   homeInfoParams:
-    Title: Insight into investment, one step ahead of business.
+    Title: Insight Into Investment, One Step Ahead of Business
     Content: A friendship founded on business is better than business founded on friendship. - John D. Rockefeller
 
   ShowShareButtons: true
