@@ -17,9 +17,9 @@ params:
 
 menu:
   main:
-    - identifier: 'posts'
-      name: 'Posts'
-      url: '/posts/'
+    - identifier: 'features'
+      name: 'Features'
+      url: '/features/'
       weight: 2
     - identifier: 'about'
       name: 'About'
