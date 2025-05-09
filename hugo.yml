@@ -17,8 +17,8 @@ params:
 
 menu:
   main:
-    - identifier: 'features'
-      name: 'Features'
+    - identifier: 'insights'
+      name: 'Insights'
       url: '/features/'
       weight: 2
     - identifier: 'about'
