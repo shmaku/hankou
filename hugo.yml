@@ -19,7 +19,7 @@ menu:
   main:
     - identifier: 'insights'
       name: 'Insights'
-      url: '/features/'
+      url: '/insights/'
       weight: 2
     - identifier: 'about'
       name: 'About'
