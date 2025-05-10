@@ -1,6 +1,6 @@
 +++
 title = 'Gates' Wealth and Legacy'
-date = 2025-05-09
+date = 2025-05-10
 author = 'Acj'
 description = 'The Challenge and Philosophy of Spending Down the Foundation'
 +++
