@@ -1,8 +1,8 @@
 +++
-title = 'Gates' Wealth and Legacy'
-date = 2025-05-10
-author = 'Acj'
-description = 'The Challenge and Philosophy of Spending Down the Foundation'
+title = "Gates' Wealth and Legacy"
+date = 2025-05-09
+author = "Acj"
+description = "The Challenge and Philosophy of Spending Down the Foundation"
 +++
 Bill Gates has announced plans to permanently close his founded Bill & Melinda Gates Foundation by December 31, 2045. This decision significantly accelerates the pace of his philanthropic work. Compared to the original plan of gradually closing the foundation within 20 years after the deaths of Bill and Melinda, Gates chose to move the closure forward to 2045 to ensure funds are directed faster towards the world's most pressing needs. He stated, "I have decided to return virtually all of my wealth to society faster than planned because there are too many urgent problems in the world that can't wait."
 
