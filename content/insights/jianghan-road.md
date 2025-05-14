@@ -1,6 +1,6 @@
 +++
 title = "Jianghan Road"
-date = 2025-5-14
+date = 2025-05-14
 description = "The Pioneer Road of Modern Real Estate Development in Hankou"
 +++
 Jianghan Road was originally named Guangli Alley, a dirt path about 300 meters long extending from the riverbank to Poyang Street. After Hankou was opened as a treaty port in 1861, the road was widened and paved with gravel, named "Taiping Road". By the late Qing Dynasty, Taiping Road had been extended northwards to Hualou Street.
