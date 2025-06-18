@@ -1,6 +1,7 @@
 +++
 title = "The Pulse of Hankou"
 date = 2025-06-13
+author = "Acj"
 description = "A History of Ascending and Descending Commercial Powers"
 +++
 
