@@ -1,6 +1,6 @@
 +++
 title = "Night Market"
-date = 2025-6-25
+date = 2025-06-25
 author = "Acj"
 +++
 After a four-month shutdown, the Baocheng Street Night Market was finally open again.
