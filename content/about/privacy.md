@@ -1,5 +1,6 @@
 +++
 title = 'Privacy Policy'
+slug = 'privacy-policy'
 +++
 Last updated: July 13, 2025
 
