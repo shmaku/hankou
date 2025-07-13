@@ -1,3 +1,4 @@
+# --- Site Details ---
 baseURL: 'https://hankou.com'
 languageCode: en-us
 defaultContentLanguage: en
@@ -15,16 +16,27 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
 
+# SEO and Author Details
+  description: "An online humanities space dedicated to recording and observing the changes in Wuhan city and the lives of its citizens. Non-fiction writing, updated weekly."
+  author: "Lin Song" # Or your preferred author name
+
+# Copyright notice for the footer
+  copyright: "© 2025 Hankou. All Rights Reserved."
+
 menu:
   main:
     - identifier: 'insights'
       name: 'Insights'
       url: '/insights/'
-      weight: 2
+      weight: 1
     - identifier: 'about'
       name: 'About'
       url: '/about/'
-      weight: 1
+      weight: 2
+    - identifier: 'privacy-policy'
+      name: 'Privacy'
+      url: '/privacy/'
+      weight: 3
 
 markup:
   goldmark:
