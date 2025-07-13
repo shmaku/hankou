@@ -33,10 +33,6 @@ menu:
       name: 'About'
       url: '/about/'
       weight: 2
-    - identifier: 'privacy-policy'
-      name: 'Privacy'
-      url: '/privacy/'
-      weight: 3
 
 markup:
   goldmark:
