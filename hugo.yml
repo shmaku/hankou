@@ -16,12 +16,9 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
 
-# SEO and Author Details
-  description: "An online humanities space dedicated to recording and observing the changes in Wuhan city and the lives of its citizens. Non-fiction writing, updated weekly."
-  author: "Lin Song" # Or your preferred author name
+# SEO
+description: "An online humanities space dedicated to recording and observing the changes in Wuhan city and the lives of its citizens. Non-fiction writing, updated weekly."
 
-# Copyright notice for the footer
-  copyright: "© 2025 Hankou. All Rights Reserved."
 
 menu:
   main:
