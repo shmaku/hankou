@@ -11,7 +11,7 @@
     {{- end }}
 
     {{- /* --- 这是我们新增的隐私政策链接 --- */}}
-    <a href="{{ .Site.GetPage "privacy.md" | .RelPermalink }}">隐私政策 (Privacy Policy)</a>
+    <a href="{{ (.Site.GetPage "privacy.md").RelPermalink }}">隐私政策 (Privacy Policy)</a>
     {{- print " · "}}
     {{- /* --- 新增部分结束 --- */}}
 
