@@ -1,5 +1,5 @@
 +++
-title = "Su Dongpo the Influencer
+title = "Su Dongpo the Influencer"
 date = 2025-08-11
 author = "Acj"
 +++
