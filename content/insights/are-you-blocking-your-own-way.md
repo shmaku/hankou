@@ -1,5 +1,5 @@
 +++
-title = "Are you blocking your own way?"
+title = "Are You Blocking Your Own Way?"
 date = 2025-08-13
 author = "Acj"
 +++
