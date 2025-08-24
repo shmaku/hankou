@@ -1,5 +1,5 @@
 +++
-title = "Scallion, Ginger, and Edamame with "June Yellow" Crabs"
+title = 'Scallion, Ginger, and Edamame with "June Yellow" Crabs'
 date = 2025-08-24
 author = "Acj"
 +++
