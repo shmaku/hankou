@@ -1,5 +1,5 @@
 +++
-titlie = "A Flat Tire or a Liquidated Account: That Is the Question"
+title = "A Flat Tire or a Liquidated Account: That Is the Question"
 date = 2025-08-25
 author = "Acj"
 +++
