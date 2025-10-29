@@ -1,6 +1,6 @@
 +++
 title = "The Least Trustworthy Thing"
-date = 2025-08-29
+date = 2025-10-29
 author = "Acj"
 +++
 "Fasting." "Level 1 Care." These were rather stimulating terms.
