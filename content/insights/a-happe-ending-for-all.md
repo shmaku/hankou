@@ -1,6 +1,6 @@
 +++
 title = "A Happy Ending for All"
-date = 2025-11-12
+date = 2025-11-02
 author = "Acj"
 +++
 After a decade of fluctuations, the Shanghai Composite Index has once again touched the 4,000-point mark.
