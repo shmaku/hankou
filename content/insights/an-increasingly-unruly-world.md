@@ -1,5 +1,5 @@
 +++
-Title = "An Increasingly Unruly World"
+title = "An Increasingly Unruly World"
 date = 2025-11-22
 author = "Acj"
 +++
