@@ -1,5 +1,6 @@
 ---
 title: "我的流程图"
+data: 2025-12-14
 mermaid: true
 ---
 
@@ -9,6 +10,4 @@ flowchart TD
     op --> cond{判断框}
     cond -- 是 --> io[/输入输出/]
     io --> e([结束])
-    cond -- 否 --> sub1[[子流程]]
-    sub1 --> op
 ```
