@@ -1,10 +1,10 @@
----
-title: "Mermaid 流程图测试"
-date: 2025-12-14
-description: "一个用于测试 Hugo PaperMod 主题中 Mermaid 集成是否成功的案例。"
-tags: ["测试", "Mermaid", "流程图"]
-mermaid: true # 关键：确保开启了 Mermaid 支持
----
++++
+title = "Mermaid 流程图测试"
+date = 2025-12-14
+description = "一个用于测试 Hugo PaperMod 主题中 Mermaid 集成是否成功的案例。"
+tags = ["测试", "Mermaid", "流程图"]
+mermaid = true # 关键：确保开启了 Mermaid 支持
++++
 
 ## 🌊 Mermaid 功能测试
 
