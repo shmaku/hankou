@@ -1,22 +1,8 @@
 +++
 title = 'Mermaid 流程图测试'
 date = 2025-12-13
-description = '一个用于测试 Hugo PaperMod 主题中 Mermaid 集成是否成功的案例。'
-mermaid = true
+description = '思考着...
+author = 'Acj'
 +++
 
-## 🌊 Mermaid 功能测试
-
-此部分测试了流程图（Flowchart）和序列图（Sequence Diagram）的渲染。
-
-## 流程图演示
-
-这是一个测试用的流程图：
-
-```mermaid
-flowchart TD
-    A[开始] --> B{处理?};
-    B -- 是 --> C[结果1];
-    B -- 否 --> D[结果2];
-    C --> E(结束);
-    D --> E;
+If you have any good suggestions, please tell me!
