@@ -25,11 +25,15 @@ menu:
     - identifier: 'insights'
       name: 'Insights'
       url: '/insights/'
-      weight: 1
+      weight: 2
     - identifier: 'about'
       name: 'About'
       url: '/about/'
-      weight: 2
+      weight: 3
+    - identifier: 'inverstment'
+      name: 'Inverstment'
+      url: '/inverstment/'
+      weight: 1
 
 markup:
   goldmark:
