@@ -1,7 +1,7 @@
 +++
-title = 'Mermaid 流程图测试'
+title = 'Better a witty fool that a foolish wit'
 date = 2025-12-13
-description = '思考着...'
+description = 'Thinking...'
 author = 'Acj'
 +++
 
