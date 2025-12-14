@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     st([开始]) --> op[处理框]
     op --> cond{判断框}
