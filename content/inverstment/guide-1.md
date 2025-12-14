@@ -1,3 +1,4 @@
+```markdown
 {{< mermaid >}}
 flowchart TD
     st([开始]) --> op[处理框]
@@ -7,4 +8,4 @@ flowchart TD
     cond -- 否 --> sub1[[子流程]]
     sub1 --> op
 {{< /mermaid >}}
-
+```
