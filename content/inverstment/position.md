@@ -6,7 +6,7 @@ description = 'The purpose of trading is to make a profit'
 +++
 "**All trading actions must be justified and can be adjusted.**"<br>
 
-NHU (002001) <br> 
+SHZ (002001) <br> 
 Purchase date：2024-12-13<br>  
 Average Purchase Price：￥21.77 <br>
 Closing Price of the Previous Trading Day：<span id="stockPrice"></span> <br> 
