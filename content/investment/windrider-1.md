@@ -1,7 +1,7 @@
 +++
-title = "风舵1号 (WindRider I) /// 指数"
-date = 2026-01-09T17:54:12+08:00
-lastmod = 2026-01-09T17:54:12+08:00
+title = "风舵1号 (WindRider I)    ///   指数"
+date = 2026-01-09T17:57:29+08:00
+lastmod = 2026-01-09T17:57:29+08:00
 draft = false
 description = "商品期货分形摆动策略实盘"
 +++
