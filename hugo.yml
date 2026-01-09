@@ -16,6 +16,12 @@ params:
   ShowReadingTime: true
   ShowPostNavLinks: true
 
+  ShowCodeCopyButtons: true
+  ShowFullTextContent: false
+
+  ThemeVars:
+    max_width: 1200px  #: 宽屏便于表格和图表
+
 # SEO
 description: "An online humanities space dedicated to recording and observing the changes in Wuhan city and the lives of its citizens. Non-fiction writing, updated weekly."
 
