@@ -1,11 +1,21 @@
 +++
 title = "风舵1号 (WindRider I)  /// 指数"
-date = 2026-01-09T22:42:29+08:00
-lastmod = 2026-01-09T22:42:29+08:00
+date = 2026-01-09T22:54:55+08:00
+lastmod = 2026-01-09T22:54:55+08:00
 draft = false
 description = "商品期货分形摆动策略实盘"
 +++
+<style>
+/* 隐藏 Hugo 主题自动生成的文章页头 */
+/* 注意：这里的类名 .post-header 和 .post-title 需要根据你使用的主题调整 */
+/* 如果不确定，通常隐藏 .post-header 或 header.post-header 即可 */
+.post-header, .article-header {
+    display: none !important;
+}
+</style>
+
 ## 风舵1号 (WindRider I) <b style="color:#E63946;">/</b><b style="color:#F1A73E;">/</b><b style="color:#457B9D;">/</b> 指数
+#### 商品期货分形摆动策略实盘
 ### 净值简报 <small>(截至: 2026-01-09)</small>
 
 | 最新指标 | |
