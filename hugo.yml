@@ -30,9 +30,9 @@ menu:
       name: 'About'
       url: '/about/'
       weight: 3
-    - identifier: 'inverstment'
-      name: 'Inverstment'
-      url: '/inverstment/'
+    - identifier: 'investment'
+      name: 'Investment'
+      url: '/investment/'
       weight: 1
 
 markup:
