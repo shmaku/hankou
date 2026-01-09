@@ -159,3 +159,8 @@
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
 {{- end -}}
+
+{{ if not (in .Permalink "investment") }}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
+     crossorigin="anonymous"></script>
+    {{ end }}
