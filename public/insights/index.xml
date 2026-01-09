@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hankou</title>
-    <link>https://hankou.com/</link>
-    <description>Recent content on Hankou</description>
+    <title>Insights on Hankou</title>
+    <link>https://hankou.com/insights/</link>
+    <description>Recent content in Insights on Hankou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hankou.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://hankou.com/insights/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>回到希望的田野上</title>
       <link>https://hankou.com/insights/%E5%9B%9E%E5%88%B0%E5%B8%8C%E6%9C%9B%E7%9A%84%E7%94%B0%E9%87%8E%E4%B8%8A/</link>
@@ -49,15 +49,6 @@
       
       <guid>https://hankou.com/insights/its-not-leanness-its-laxity/</guid>
       <description>Sister Tony always has a heavy hand when cutting hair. The electric clippers start from the nape of the neck, pushing upward right against the scalp. You can feel the cold touch of the metal; it’s nothing if not clean and sharp. After she finishes buzzing, she politely asks Lin Song, &amp;ldquo;Is this length okay?&amp;rdquo; &amp;ldquo;It&amp;rsquo;s fine.&amp;rdquo; You’ve already shaved off the hair on the left side; whether it&amp;rsquo;s okay or not, that&amp;rsquo;s how it is.</description>
-    </item>
-    
-    <item>
-      <title>Better a witty fool that a foolish wit</title>
-      <link>https://hankou.com/inverstment/guide-1/</link>
-      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/inverstment/guide-1/</guid>
-      <description>If you have any good suggestions, please tell me!</description>
     </item>
     
     <item>
@@ -813,27 +804,6 @@ The river&amp;rsquo;s mist and waves stir sorrow in the soul.</description>
     </item>
     
     <item>
-      <title>Positions</title>
-      <link>https://hankou.com/inverstment/position/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/inverstment/position/</guid>
-      <description>&amp;ldquo;All trading actions must be justified and can be adjusted.&amp;quot;
-SHZ (002001) Purchase date：2024-12-13
-Average Purchase Price：￥21.77 Closing Price of the Previous Trading Day： Positions: days</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://hankou.com/about/about/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/about/about/</guid>
-      <description>hankou.com is an online humanities space dedicated to recording and observing the urban changes and citizens&amp;rsquo; lives in Wuhan (especially Hankou). We explore the unique temperament and pulse of the city through in-depth essays, stories and comments.
-In every crowded land, I hear the quiet voices of people and see the ignored fate.</description>
-    </item>
-    
-    <item>
       <title>In that faraway place</title>
       <link>https://hankou.com/insights/introduction/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
@@ -842,53 +812,6 @@ In every crowded land, I hear the quiet voices of people and see the ignored fat
       <description>In the North Sea there is a Peng, whose wings are like clouds hanging from the sky&amp;hellip; There is a story that will unfold here. If you have patience, I will tell you the story.
 What I thought was going on before, now seems not to be so natural.
 Only when you meet again and again, you can see it more clearly.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hankou.com/business-costs/office-rent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/business-costs/office-rent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hankou.com/regulations/reg-overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/regulations/reg-overview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>https://hankou.com/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/archives/</guid>
-      <description>archives</description>
-    </item>
-    
-    <item>
-      <title>Contact Us</title>
-      <link>https://hankou.com/about/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/about/contact/</guid>
-      <description>Email: hankou2025@gmail.com</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://hankou.com/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hankou.com/privacy-policy/</guid>
-      <description>Last updated: July 13, 2025
-This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
-We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</description>
     </item>
     
   </channel>
