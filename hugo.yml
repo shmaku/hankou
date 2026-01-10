@@ -12,7 +12,7 @@ params:
     Title: In a Small Space, I Can See a Glimmer of Light In the Sea of People.
     Content: In every crowded land, I hear the quiet voices of people and see the ignored fate. Non-fiction writing, updated weekly.
 
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
 
