@@ -1,8 +1,8 @@
 +++
 title = "风舵1号 (WindRider I)  /// 指数"
 summary = "当前策略运行状态：稳健。商品期货分形摆动策略实盘最新的净值表现与核心风险指标..."
-date = 2026-01-12T16:19:47+08:00
-lastmod = 2026-01-12T16:19:47+08:00
+date = 2026-01-12T16:21:23+08:00
+lastmod = 2026-01-12T16:21:23+08:00
 draft = false
 description = "商品期货分形摆动策略实盘"
 +++
@@ -35,7 +35,7 @@ description = "商品期货分形摆动策略实盘"
 | **策略状态：** | 运行中 |
 
 ### 净值曲线图
-![风舵1号净值曲线](/static/images/investment/windrider_nav.png)
+![风舵1号净值曲线](/images/investment/windrider_nav.png)
 
 ---
 *声明：本页面数据为实盘记录，仅供技术交流，不构成投资建议。*
