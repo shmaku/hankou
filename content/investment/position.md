@@ -1,54 +1,38 @@
 +++
-title = "Positions"
-date = 2024-12-13
-author = "Acj"
-description = 'The purpose of trading is to make a profit'
+title = "风舵股票组合 (WindRider Equity) /// 每日持仓"
+summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股与波段交易相结合的策略..."
+date = 2026-01-13T09:29:49+08:00
+lastmod = 2026-01-13T09:29:49+08:00
+draft = false
+description = "WindRider Stock Portfolio"
 +++
-"**All trading actions must be justified and can be adjusted.**"<br>
+<style>
+.post-header, .article-header { display: none !important; }
+</style>
 
-SHZ (002001) <br> 
-Purchase date：2024-12-13<br>  
-Average Purchase Price：￥21.77 <br>
-Closing Price of the Previous Trading Day：<span id="stockPrice"></span> <br> 
-Positions: <span id="daysDifference"></span> days
+### 风舵股票组合 &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 指数
+WindRider Equity Portfolio <br>
+净值简报 <small>(截至: 2026-01-13)</small>
 
-<script>
-    const today = new Date();
-    const previousDate = new Date('2024-12-13'); // 这里假设之前某日是2024年12月13日
-    const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
-    const diffDays = Math.round(Math.abs((today - previousDate) / oneDay));
-    document.getElementById('daysDifference').innerText = diffDays;
-</script>
+|  |  |
+| :--- | :--- |
+| **指数代码：** | WDR.EQ |
+| **成立日期：** | 2025-11-19 |
+| **最新净值：** | 1.0829 |
+| **今日涨跌：** | +0.36% |
 
-<script>
-    async function getStockPrice() {
-        const apiKey = 'U31XQFWRL9AC1J4Z';  // 请替换为有效的API密钥
-        const symbol = '002001.SHZ';  
-        const url = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&outputsize=full&apikey=${apiKey}`;
-        
-        try {
-            const response = await fetch(url);
-            const data = await response.json();
-            
-            if (data["Time Series (Daily)"]) {
-                // 获取最近的时间和价格
-                const latestTime = Object.keys(data["Time Series (Daily)"])[0];
-                const latestData = data["Time Series (Daily)"][latestTime];
-                const price = latestData["4. close"];
+===========================
 
-                // 将价格保留两位小数
-                const formattedPrice = parseFloat(price).toFixed(2);
+| 核心表现 | |
+| :--- | :--- |
+| **累计收益：** | +8.29% |
+| **年化收益：** | +69.64% |
+| **最大回撤：** | 0.00% |
+| **基准点位：** | 4798.05 (CSI300) |
+| **策略状态：** | 运行中 |
 
-                // 显示最新的价格
-                document.getElementById('stockPrice').innerText = `￥${formattedPrice}`;
-            } else {
-                document.getElementById('stockPrice').innerText = '获取价格失败，请检查API调用或股票代码是否正确。';
-            }
-        } catch (error) {
-            document.getElementById('stockPrice').innerText = '请求失败，出现错误。';
-        }
-    }
+### 收益率对比曲线 (vs 沪深300)
+![风舵股票净值曲线](/images/investment/windrider_eq_curve.png)
 
-    // 页面加载时获取股票价格
-    window.onload = getStockPrice;
-</script>
+---
+*声明：本页面数据为实盘记录，包含资金进出对份额的除权调整。数据仅供技术交流，不构成投资建议。*
