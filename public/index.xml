@@ -6,8 +6,15 @@
     <description>Recent content on Hankou</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:21:23 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 09:29:49 +0800</lastBuildDate>
     <atom:link href="https://hankou.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>风舵股票组合 (WindRider Equity) /// 每日持仓</title>
+      <link>https://hankou.com/investment/position/</link>
+      <pubDate>Tue, 13 Jan 2026 09:29:49 +0800</pubDate>
+      <guid>https://hankou.com/investment/position/</guid>
+      <description>WindRider Stock Portfolio</description>
+    </item>
     <item>
       <title>风舵1号 (WindRider I)  /// 指数</title>
       <link>https://hankou.com/investment/windrider-1/</link>
@@ -709,13 +716,6 @@ The words had barely left his lips when the pedestrian light turned red.&lt;/p&g
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://hankou.com/insights/yellow_crane_tower/</guid>
       <description>Poetry of the Tang Dynasty</description>
-    </item>
-    <item>
-      <title>Positions</title>
-      <link>https://hankou.com/investment/position/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://hankou.com/investment/position/</guid>
-      <description>The purpose of trading is to make a profit</description>
     </item>
     <item>
       <title>About</title>
