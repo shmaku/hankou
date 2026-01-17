@@ -1,5 +1,5 @@
 +++
-title = "Reading Is Still Useful After All"
+title = "Reading is Still Useful After All"
 date = 2026-01-17
 author = "Acj"
 +++
