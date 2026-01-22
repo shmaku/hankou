@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hankou.com/investment/</loc>
-    <lastmod>2026-01-21T16:38:38+08:00</lastmod>
+    <loc>https://hankou.com/insights/a-job-might-last-a-lifetime/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hankou.com/insights/</loc>
+    <lastmod>2026-01-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hankou.com/investment/</loc>
     <lastmod>2026-01-21T16:38:38+08:00</lastmod>
   </url><url>
     <loc>https://hankou.com/investment/windrider-1/</loc>
@@ -13,9 +19,6 @@
   </url><url>
     <loc>https://hankou.com/investment/position/</loc>
     <lastmod>2026-01-21T15:11:15+08:00</lastmod>
-  </url><url>
-    <loc>https://hankou.com/insights/</loc>
-    <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/insights/reading-is-still-useful-after-all/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
