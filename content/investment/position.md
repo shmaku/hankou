@@ -1,8 +1,8 @@
 +++
 title = "持仓 Position"
 summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股策略。"
-date = 2026-01-26T15:11:03+08:00
-lastmod = 2026-01-26T15:11:03+08:00
+date = 2026-01-26T15:55:08+08:00
+lastmod = 2026-01-26T15:55:08+08:00
 draft = false
 description = "WindRider Stock Portfolio"
 +++
@@ -34,8 +34,8 @@ WindRider Equity Portfolio <br>
 ### 持仓明细
 | 股票名称 | 成本价 | 现价 | 盈亏 | 占比 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Unknown <small>300450</small> | 49.41 | 0.00 | <span style="color:#2A9D8F">-100.00%</span> | 0.0% |
-| Unknown <small>002001</small> | 24.77 | 0.00 | <span style="color:#2A9D8F">-100.00%</span> | 0.0% |
+| 先导智能 <small>300450</small> | 49.41 | 61.89 | <span style="color:#E63946">+25.25%</span> | 51.5% |
+| 新 和 成 <small>002001</small> | 24.77 | 28.00 | <span style="color:#E63946">+13.03%</span> | 46.6% |
 
 <br>
 
