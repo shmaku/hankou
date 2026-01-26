@@ -6,8 +6,22 @@
     <description>Recent content on Hankou</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 15:55:08 +0800</lastBuildDate>
     <atom:link href="https://hankou.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>持仓 Position</title>
+      <link>https://hankou.com/investment/position/</link>
+      <pubDate>Mon, 26 Jan 2026 15:55:08 +0800</pubDate>
+      <guid>https://hankou.com/investment/position/</guid>
+      <description>WindRider Stock Portfolio</description>
+    </item>
+    <item>
+      <title>风舵1号 (WindRider I)  /// 指数</title>
+      <link>https://hankou.com/investment/windrider-1/</link>
+      <pubDate>Mon, 26 Jan 2026 15:15:03 +0800</pubDate>
+      <guid>https://hankou.com/investment/windrider-1/</guid>
+      <description>商品期货分形摆动策略实盘</description>
+    </item>
     <item>
       <title>A Job Might Last a Lifetime</title>
       <link>https://hankou.com/insights/a-job-might-last-a-lifetime/</link>
@@ -15,20 +29,6 @@
       <guid>https://hankou.com/insights/a-job-might-last-a-lifetime/</guid>
       <description>&lt;p&gt;On a ThinkPad that had been in service for over 15 years, the code for &amp;ldquo;Wind Rudder No. 1&amp;rdquo; finally ran successfully. Three months of back-testing data showed considerable profitability.&lt;/p&gt;
 &lt;p&gt;Hope had never felt so real. In a life spent stumbling through the better part of my years, all rehearsals had taken place within textbooks written by teachers. No matter how many times I verified the calculations, they were always other people&amp;rsquo;s stories, other people&amp;rsquo;s scenarios.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>风舵1号 (WindRider I)  /// 指数</title>
-      <link>https://hankou.com/investment/windrider-1/</link>
-      <pubDate>Wed, 21 Jan 2026 16:38:38 +0800</pubDate>
-      <guid>https://hankou.com/investment/windrider-1/</guid>
-      <description>商品期货分形摆动策略实盘</description>
-    </item>
-    <item>
-      <title>持仓 Position</title>
-      <link>https://hankou.com/investment/position/</link>
-      <pubDate>Wed, 21 Jan 2026 15:11:15 +0800</pubDate>
-      <guid>https://hankou.com/investment/position/</guid>
-      <description>WindRider Stock Portfolio</description>
     </item>
     <item>
       <title>Reading is Still Useful After All</title>
