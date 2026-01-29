@@ -1,8 +1,8 @@
 +++
 title = "持仓 Position"
 summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股策略。"
-date = 2026-01-28T17:14:39+08:00
-lastmod = 2026-01-28T17:14:39+08:00
+date = 2026-01-29T15:11:24+08:00
+lastmod = 2026-01-29T15:11:24+08:00
 draft = false
 description = "WindRider Stock Portfolio"
 +++
