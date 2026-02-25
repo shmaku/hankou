@@ -1,8 +1,8 @@
 +++
 title = "持仓 Position"
 summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股策略。"
-date = 2026-02-24T18:00:38+08:00
-lastmod = 2026-02-24T18:00:38+08:00
+date = 2026-02-25T15:10:05+08:00
+lastmod = 2026-02-25T15:10:05+08:00
 draft = false
 description = "WindRider Stock Portfolio"
 +++
@@ -12,30 +12,30 @@ description = "WindRider Stock Portfolio"
 
 ### 风舵股票组合 &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 每日持仓
 WindRider Equity Portfolio <br>
-净值简报 <small>(截至: 2026-02-24)</small>
+净值简报 <small>(截至: 2026-02-25)</small>
 
 |  |  |
 | :--- | :--- |
 | **指数代码：** | WDR.EQ |
 | **成立日期：** | 2025-11-19 |
-| **最新净值：** | 1.1315 |
-| **今日涨跌：** | -0.15% |
+| **最新净值：** | 1.1516 |
+| **今日涨跌：** | +1.78% |
 
 ===========================
 
 | 核心表现 | |
 | :--- | :--- |
-| **累计收益：** | +13.15% |
-| **年化收益：** | +59.18% |
+| **累计收益：** | +15.16% |
+| **年化收益：** | +69.17% |
 | **最大回撤：** | -9.05% |
-| **基准点位：** | 4707.54 (CSI300) |
-| **策略状态：** | 已运行 98 天 |
+| **基准点位：** | 4735.89 (CSI300) |
+| **策略状态：** | 已运行 99 天 |
 
 ### 持仓明细
 | 股票名称 | 成本价 | 现价 | 盈亏 | 占比 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 先导智能 <small>300450</small> | 50.36 | 54.31 | <span style="color:#E63946">+7.84%</span> | 46.91% |
-| 新 和 成 <small>002001</small> | 24.84 | 29.59 | <span style="color:#E63946">+19.13%</span> | 51.11% |
+| 先导智能 <small>300450</small> | 50.36 | 55.45 | <span style="color:#E63946">+10.11%</span> | 47.05% |
+| 新 和 成 <small>002001</small> | 24.84 | 30.05 | <span style="color:#E63946">+20.99%</span> | 51.0% |
 
 <br>
 
