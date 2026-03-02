@@ -9,8 +9,8 @@ sectionPagesMenu: 'main'
 
 params:
   homeInfoParams:
-    Title: In a Small Space, I Can See a Glimmer of Light In the Sea of People.
-    Content: In every crowded land, I hear the quiet voices of people and see the ignored fate. Non-fiction writing, updated weekly.
+    Title: 看风使舵，随波逐流。
+    Content: 流动性是市场的财富之源，量化策略赋予了市场新的流动性。
 
   ShowShareButtons: false
   ShowReadingTime: false
