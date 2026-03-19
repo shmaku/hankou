@@ -1,8 +1,8 @@
 +++
 title = "风舵1号 (WindRider I)  /// 指数"
 summary = "商品期货分形摆动策略，实盘最新净值与核心风险指标。"
-date = 2026-03-19T15:15:03+08:00
-lastmod = 2026-03-19T15:15:03+08:00
+date = 2026-03-19T21:10:15+08:00
+lastmod = 2026-03-19T21:10:15+08:00
 draft = false
 description = "商品期货分形摆动策略实盘"
 +++
@@ -15,7 +15,7 @@ description = "商品期货分形摆动策略实盘"
 
 ### 风舵1号 (WindRider I) &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 指数
 商品期货分形摆动策略实盘<br>
-净值简报 <small>(截至: 2026-03-18)</small>
+净值简报 <small>(截至: 2026-03-19)</small>
 
 |  |  |
 | :--- | :--- |
@@ -29,10 +29,10 @@ description = "商品期货分形摆动策略实盘"
 | 核心指标 | |
 | :--- | :--- |
 | **累计涨跌：** | -27.60% |
-| **年化收益：** | -80.55% |
+| **年化收益：** | -80.11% |
 | **最大回撤：** | -49.85% |
-| **卡玛比率：** | -1.62 |
-| **策略状态：** | 已运行 73 天 |
+| **卡玛比率：** | -1.61 |
+| **策略状态：** | 已运行 74 天 |
 
 ### 净值曲线
 ![风舵1号净值曲线](/images/investment/windrider_nav.png)
