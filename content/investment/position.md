@@ -1,8 +1,8 @@
 +++
 title = "如山-股票组合持仓 /// Position"
 summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股策略。"
-date = 2026-04-15T15:12:04+08:00
-lastmod = 2026-04-15T15:12:04+08:00
+date = 2026-04-16T15:12:04+08:00
+lastmod = 2026-04-16T15:12:04+08:00
 draft = false
 description = "如山股票组合持仓"
 +++
@@ -10,32 +10,32 @@ description = "如山股票组合持仓"
 .post-header, .article-header { display: none !important; }
 </style>
 
-### 风舵股票组合 &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 每日持仓
+### 如山股票组合 &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 每日持仓
 WindRider Equity Portfolio <br>
-净值简报 <small>(截至: 2026-04-15)</small>
+净值简报 <small>(截至: 2026-04-16)</small>
 
 |  |  |
 | :--- | :--- |
 | **指数代码：** | WDR.EQ |
 | **成立日期：** | 2025-11-19 |
-| **最新净值：** | 1.1382 |
-| **今日涨跌：** | -1.85% |
+| **最新净值：** | 1.1535 |
+| **今日涨跌：** | +1.34% |
 
 ===========================
 
 | 核心表现 | |
 | :--- | :--- |
-| **累计收益：** | +13.82% |
-| **年化收益：** | +37.91% |
+| **累计收益：** | +15.35% |
+| **年化收益：** | +42.22% |
 | **最大回撤：** | -15.29% |
-| **基准点位：** | 4685.25 (CSI300) |
-| **策略状态：** | 已运行 148 天 |
+| **基准点位：** | 4736.61 (CSI300) |
+| **策略状态：** | 已运行 149 天 |
 
 ### 持仓明细
 | 股票名称 | 成本价 | 现价 | 盈亏 | 占比 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 先导智能 <small>300450</small> | 52.20 | 52.86 | <span style="color:#E63946">+1.26%</span> | 61.17% |
-| 比亚迪 <small>002594</small> | 100.19 | 103.03 | <span style="color:#E63946">+2.83%</span> | 17.03% |
+| 先导智能 <small>300450</small> | 52.20 | 53.66 | <span style="color:#E63946">+2.80%</span> | 61.28% |
+| 比亚迪 <small>002594</small> | 100.19 | 105.54 | <span style="color:#E63946">+5.34%</span> | 17.22% |
 
 <br>
 
