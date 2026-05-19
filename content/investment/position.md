@@ -2,8 +2,8 @@
 title = "如山-股票组合持仓 /// Position"
 draft = true
 summary = "主动管理型股票组合。对标沪深300指数，采用基本面选股策略。"
-date = 2026-05-18T17:26:28+08:00
-lastmod = 2026-05-18T17:26:28+08:00
+date = 2026-05-19T15:12:06+08:00
+lastmod = 2026-05-19T15:12:06+08:00
 draft = false
 description = "如山股票组合持仓"
 +++
@@ -13,14 +13,14 @@ description = "如山股票组合持仓"
 
 ### 如山股票组合 &nbsp;&nbsp;<span style="color: #E63946; font-weight: bold;">/</span><span style="color: #F1A73E; font-weight: bold;">/</span><span style="color: #000091; font-weight: bold;">/</span>&nbsp;&nbsp; 每日持仓
 WindRider Equity Portfolio <br>
-净值简报 <small>(截至: 2026-05-18)</small>
+净值简报 <small>(截至: 2026-05-19)</small>
 
 |  |  |
 | :--- | :--- |
 | **指数代码：** | WDR.EQ |
 | **成立日期：** | 2025-11-19 |
 | **最新净值：** | 0.0177 |
-| **今日涨跌：** | -98.40% |
+| **今日涨跌：** | +0.00% |
 
 ===========================
 
@@ -30,7 +30,7 @@ WindRider Equity Portfolio <br>
 | **年化收益：** | -99.97% |
 | **最大回撤：** | -98.54% |
 | **基准点位：** | 0.00 (CSI300) |
-| **策略状态：** | 已运行 181 天 |
+| **策略状态：** | 已运行 182 天 |
 
 ### 持仓明细
 | 股票名称 | 成本价 | 现价 | 盈亏 | 占比 |
