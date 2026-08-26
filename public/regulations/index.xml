@@ -4,15 +4,18 @@
     <title>Hankou</title>
     <link>https://hankou.com/regulations/</link>
     <description>Recent content on Hankou</description>
-    <generator>Hugo -- 0.148.0</generator>
+
+    <generator>Hugo -- 0.164.0</generator>
     <language>zh-cn</language>
     <atom:link href="https://hankou.com/regulations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://hankou.com/regulations/reg-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
       <guid>https://hankou.com/regulations/reg-overview/</guid>
       <description></description>
     </item>
+
   </channel>
 </rss>
