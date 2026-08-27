@@ -9,8 +9,9 @@ sectionPagesMenu: 'main'
 
 params:
   homeInfoParams:
-    Title: 有些问题，不需要答案
-    Content: 讨论那些没有标准答案，却值得认真思考的问题。
+    Title: 让问题值得被思考
+    Content: '有些问题，不需要答案。讨论那些没有标准答案，却值得认真思考的问题。>
+        欢迎投递: hankou2025@gmail.com '
 
   ShowShareButtons: false
   ShowReadingTime: false
