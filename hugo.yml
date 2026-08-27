@@ -2,15 +2,15 @@
 baseURL: 'https://hankou.com'
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
-title: 'Hankou'
+title: 'Hankou 让问题值得被思考'
 theme: 'PaperMod'
 
 sectionPagesMenu: 'main'
 
 params:
   homeInfoParams:
-    Title: 看风使舵，随波逐流。
-    Content: 流动性是市场的财富之源，量化策略赋予了市场新的流动性。
+    Title: 有些问题，不需要答案
+    Content: 讨论那些没有标准答案，却值得认真思考的问题。
 
   ShowShareButtons: false
   ShowReadingTime: false
