@@ -2,7 +2,7 @@
 baseURL: 'https://hankou.com'
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
-title: 'Hankou 让问题值得被思考'
+title: 'Hankou'
 theme: 'PaperMod'
 
 sectionPagesMenu: 'main'
@@ -23,7 +23,7 @@ params:
     max_width: 1200px  #: 宽屏便于表格和图表
 
 # SEO
-description: "An online humanities space dedicated to recording and observing the changes in Wuhan city and the lives of its citizens. Non-fiction writing, updated weekly."
+description: "讨论，对待那些没有答案的问题。探索，从一个问题开始，有些问题，比答案重要。当问题没有答案，思考就没有终点。持续更新。"
 
 
 menu:
