@@ -37,9 +37,9 @@ menu:
       name: 'About'
       url: '/about/'
       weight: 3
-    - identifier: 'investment'
-      name: 'Investment'
-      url: '/investment/'
+    - identifier: 'history'
+      name: 'History'
+      url: '/history/'
       weight: 1
 
 markup:
