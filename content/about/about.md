@@ -2,6 +2,6 @@
 title = 'About'
 date = 2024-06-12
 +++
-hankou.com is an online humanities space dedicated to recording and observing the urban changes and citizens' lives in Wuhan (especially Hankou). We explore the unique temperament and pulse of the city through in-depth essays, stories and comments.
+hankou.com 是一个致力于记录和观察城市变迁及人们生活的线上人文空间。我们通过深度文章、故事和评论，探索城市中生活的人们的独特气质与脉搏。
 
-In every crowded land, I hear the quiet voices of people and see the ignored fate.
+在每一片拥挤的土地上，都都能听到人们低声的诉说，看到被忽视的命运。

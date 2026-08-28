@@ -29,9 +29,9 @@ description: "讨论，对待那些没有答案的问题。探索，从一个问
 
 menu:
   main:
-    - identifier: 'insights'
-      name: 'Insights'
-      url: '/insights/'
+    - identifier: 'future'
+      name: 'Future'
+      url: '/future/'
       weight: 2
     - identifier: 'about'
       name: 'About'
