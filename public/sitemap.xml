@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hankou.com/history/</loc>
-    <lastmod>2026-08-27T00:00:00+00:00</lastmod>
+    <loc>https://hankou.com/future/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hankou.com/future/%E5%BB%B6%E9%95%BF40%E5%B9%B4/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hankou.com/history/</loc>
     <lastmod>2026-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/history/%E4%B8%AD%E5%85%83/</loc>
