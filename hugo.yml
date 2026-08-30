@@ -34,12 +34,12 @@ menu:
       url: '/future/'
       weight: 2
     - identifier: 'about'
-      name: '自我'
+      name: '关于'
       url: '/about/'
       weight: 3
-    - identifier: 'history'
-      name: '过去'
-      url: '/history/'
+    - identifier: 'questions'
+      name: '问题'
+      url: '/questions'
       weight: 1
 
 markup:
