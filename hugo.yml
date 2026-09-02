@@ -29,6 +29,10 @@ description: "讨论，对待那些没有答案的问题。探索，从一个问
 
 menu:
   main:
+    - identifier: 'questions'
+      name: '问题'
+      url: '/questions'
+      weight: 1
     - identifier: 'future'
       name: '将来'
       url: '/future/'
@@ -37,10 +41,11 @@ menu:
       name: '关于'
       url: '/about/'
       weight: 3
-    - identifier: 'questions'
-      name: '问题'
-      url: '/questions'
-      weight: 1
+    - identifier: 'Linsong'
+      name: '林松系列'
+      url: '/Linsong/'
+      weight: 4
+
 
 markup:
   goldmark:
