@@ -1,13 +1,17 @@
 # --- Site Details ---
 baseURL: 'https://hankou.com'
-languageCode: zh-cn
 defaultContentLanguage: zh-cn
 title: 'Hankou'
 theme: 'PaperMod'
 
-sectionPagesMenu: 'main'
+# sectionPagesMenu: 'main'
 
 params:
+  mainSections:
+    - questions
+    - future
+    - Linsong
+
   homeInfoParams:
     Title: 让问题值得被思考
     Content: '有些问题，不需要答案。讨论那些没有标准答案，却值得认真思考的问题。
@@ -31,19 +35,22 @@ menu:
   main:
     - identifier: 'questions'
       name: '问题'
-      url: '/questions'
+      url: '/questions/'
       weight: 1
+
     - identifier: 'future'
       name: '将来'
       url: '/future/'
       weight: 2
-    - identifier: 'about'
-      name: '关于'
-      url: '/about/'
-      weight: 3
+
     - identifier: 'Linsong'
       name: '林松系列'
       url: '/Linsong/'
+      weight: 3
+
+    - identifier: 'about'
+      name: '关于'
+      url: '/about/'
       weight: 4
 
 
