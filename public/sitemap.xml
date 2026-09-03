@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hankou.com/questions/</loc>
-    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://hankou.com/</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,6 +9,9 @@
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/questions/%E8%88%8D%E8%BF%91%E6%B1%82%E8%BF%9C%E7%9A%84%E8%A1%8C%E5%86%9B%E8%B7%AF%E7%BA%BF/</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hankou.com/questions/</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hankou.com/future/</loc>
