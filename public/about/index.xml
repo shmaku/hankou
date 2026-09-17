@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hankou</title>
+    <link>https://hankou.com/about/</link>
+    <description>Recent content on Hankou</description>
+
+    <generator>Hugo -- 0.164.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hankou.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://hankou.com/about/about/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+
+      <guid>https://hankou.com/about/about/</guid>
+      <description>&lt;p&gt;hankou.com 是一个致力于记录和观察城市变迁及人们生活的线上人文空间。我们通过深度文章、故事和评论，探索城市中生活的人们的独特气质与脉搏。&lt;/p&gt;
+&lt;p&gt;在每一片拥挤的土地上，都都能听到人们低声的诉说，看到被忽视的命运。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>一粒微尘漫游在无边的宇宙之中</title>
+      <link>https://hankou.com/about/introduction/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+
+      <guid>https://hankou.com/about/introduction/</guid>
+      <description>&lt;p&gt;有一个故事将在这里展开，如果有耐心，就娓娓道来。&lt;/p&gt;
+&lt;p&gt;我曾经以为的事情，现在看来并不是那么的顺其自然。&lt;/p&gt;
+&lt;p&gt;只有一而再的遇见，才看得更加的清晰。&lt;/p&gt;
+&lt;p&gt;用指尖触摸世界。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>联系我们</title>
+      <link>https://hankou.com/about/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+
+      <guid>https://hankou.com/about/contact/</guid>
+      <description>&lt;p&gt;Email: &lt;a href=&#34;mailto:hankou2025@gmail.com&#34;&gt;hankou2025@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+
+  </channel>
+</rss>
